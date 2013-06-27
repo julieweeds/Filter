@@ -1,0 +1,654 @@
+i/PRON	nsubjpass-HEAD:scare	T:get	T:scare	T:.
+get/V	T:i	T:scare	T:.	auxpass-HEAD:scare
+./PUNCT	punct-HEAD:scare	T:i	T:get	T:scare
+``/UNK	punct-HEAD:have	T:there	T:have	T:to	T:be	T:budgetary	T:consideration	T:.
+there/UNK	T:``	T:have	T:to	T:be	T:budgetary	T:consideration	T:.	expl-HEAD:have
+have/V	T:``	T:there	T:to	T:be	T:budgetary	T:consideration	T:.	expl-DEP:there	xcomp-DEP:consideration	punct-DEP:``	punct-DEP:.
+to/UNK	T:``	T:there	T:have	T:be	T:budgetary	T:consideration	T:.	aux-HEAD:consideration
+be/V	cop-HEAD:consideration	T:``	T:there	T:have	T:to	T:budgetary	T:consideration	T:.
+./PUNCT	punct-HEAD:have	T:``	T:there	T:have	T:to	T:be	T:budgetary	T:consideration
+it/PRON	nsubjpass-HEAD:blame	T:be	T:blame	T:on	T:bad	T:construction	T:.
+be/V	T:it	T:blame	T:on	T:bad	T:construction	T:.	auxpass-HEAD:blame
+on/CONJ	pobj-DEP:construction	T:it	T:be	T:blame	T:bad	T:construction	T:.	prep-HEAD:blame
+construction/N	amod-DEP:bad	T:it	T:be	T:blame	T:on	T:bad	T:.	pobj-HEAD:on
+./PUNCT	punct-HEAD:blame	T:it	T:be	T:blame	T:on	T:bad	T:construction
+it/PRON	T:be	T:a	T:fine	T:balancing	T:act	T:.	nsubj-HEAD:act
+be/V	cop-HEAD:act	T:it	T:a	T:fine	T:balancing	T:act	T:.
+a/DET	T:it	T:be	T:fine	T:balancing	T:act	T:.	det-HEAD:act
+./PUNCT	punct-HEAD:act	T:it	T:be	T:a	T:fine	T:balancing	T:act
+he/PRON	T:say	T:the	T:federation	T:want	T:he	T:to	T:take	nsubj-HEAD:say
+say/V	nsubj-DEP:he	T:he	T:the	T:federation	T:want	T:he	T:to	T:take	T:a	ccomp-DEP:want	punct-DEP:.
+the/DET	T:he	T:say	T:federation	T:want	T:he	T:to	T:take	T:a	T:pay	det-HEAD:federation
+he/PRON	T:he	T:say	T:the	T:federation	T:want	T:to	T:take	T:a	T:pay	T:cut	T:.	nsubj-HEAD:take
+to/UNK	T:he	T:say	T:the	T:federation	T:want	T:he	T:take	T:a	T:pay	T:cut	T:.	aux-HEAD:take
+take/V	nsubj-DEP:he	T:he	T:say	T:the	T:federation	T:want	T:he	T:to	T:a	T:pay	T:cut	T:.	dobj-DEP:cut	xcomp-HEAD:want	aux-DEP:to
+a/DET	T:say	T:the	T:federation	T:want	T:he	T:to	T:take	T:pay	T:cut	T:.	det-HEAD:cut
+./PUNCT	punct-HEAD:say	T:want	T:he	T:to	T:take	T:a	T:pay	T:cut
+must/UNK	T:wider	T:issue	T:be	T:address	T:.	aux-HEAD:address
+be/V	T:wider	T:issue	T:must	T:address	T:.	auxpass-HEAD:address
+./PUNCT	punct-HEAD:address	T:wider	T:issue	T:must	T:be	T:address
+have/V	T:initial	T:report	T:attribute	T:the	T:collapse	T:to	T:a	T:gas	T:explosion	aux-HEAD:attribute
+the/DET	T:initial	T:report	T:have	T:attribute	T:collapse	T:to	T:a	T:gas	T:explosion	T:.	det-HEAD:collapse
+collapse/N	T:initial	T:report	T:have	T:attribute	T:the	T:to	T:a	T:gas	T:explosion	T:.	det-DEP:the	dobj-HEAD:attribute
+to/UNK	pobj-DEP:explosion	T:initial	T:report	T:have	T:attribute	T:the	T:collapse	T:a	T:gas	T:explosion	T:.	prep-HEAD:attribute
+a/DET	T:initial	T:report	T:have	T:attribute	T:the	T:collapse	T:to	T:gas	T:explosion	T:.	det-HEAD:explosion
+gas/N	T:report	T:have	T:attribute	T:the	T:collapse	T:to	T:a	T:explosion	T:.	nn-HEAD:explosion
+explosion/N	T:have	T:attribute	T:the	T:collapse	T:to	T:a	T:gas	T:.	det-DEP:a	nn-DEP:gas	pobj-HEAD:to
+./PUNCT	punct-HEAD:attribute	T:attribute	T:the	T:collapse	T:to	T:a	T:gas	T:explosion
+``/UNK	T:we	T:can	T:not	T:accept	T:the	T:apology	T:from
+we/PRON	T:``	T:can	T:not	T:accept	T:the	T:apology	T:from	T:samcholli	nsubj-HEAD:accept
+can/UNK	T:``	T:we	T:not	T:accept	T:the	T:apology	T:from	T:samcholli	T:.	aux-HEAD:accept
+not/RB	T:``	T:we	T:can	T:accept	T:the	T:apology	T:from	T:samcholli	T:.	neg-HEAD:accept
+the/DET	T:``	T:we	T:can	T:not	T:accept	T:apology	T:from	T:samcholli	T:.	det-HEAD:apology
+apology/N	T:``	T:we	T:can	T:not	T:accept	T:the	T:from	T:samcholli	T:.	det-DEP:the	prep-DEP:from	dobj-HEAD:accept
+from/CONJ	pobj-DEP:samcholli	T:``	T:we	T:can	T:not	T:accept	T:the	T:apology	T:samcholli	T:.	prep-HEAD:apology
+./PUNCT	punct-HEAD:accept	T:can	T:not	T:accept	T:the	T:apology	T:from	T:samcholli
+``/UNK	T:suddenly	T:the	T:building	T:start	T:shake	T:.
+the/DET	T:``	T:suddenly	T:building	T:start	T:shake	T:.	det-HEAD:building
+building/N	T:``	T:suddenly	T:the	T:start	T:shake	T:.	det-DEP:the	nsubj-HEAD:start
+./PUNCT	T:``	T:suddenly	T:the	T:building	T:start	T:shake
+but/CONJ	T:it	T:will	T:not	T:be	T:a	T:any	T:price	cc-HEAD:price
+it/PRON	T:but	T:will	T:not	T:be	T:a	T:any	T:price	T:,	nsubj-HEAD:price
+not/RB	T:but	T:it	T:will	T:be	T:a	T:any	T:price	T:,	T:''	T:he	neg-HEAD:price
+be/V	cop-HEAD:price	T:but	T:it	T:will	T:not	T:a	T:any	T:price	T:,	T:''	T:he	T:add
+a/DET	T:but	T:it	T:will	T:not	T:be	T:any	T:price	T:,	T:''	T:he	T:add	T:.	det-HEAD:price
+,/PUNCT	punct-HEAD:add	T:it	T:will	T:not	T:be	T:a	T:any	T:price	T:''	T:he	T:add	T:.
+''/UNK	punct-HEAD:add	T:will	T:not	T:be	T:a	T:any	T:price	T:,	T:he	T:add	T:.
+he/PRON	T:not	T:be	T:a	T:any	T:price	T:,	T:''	T:add	T:.	nsubj-HEAD:add
+add/V	nsubj-DEP:he	T:be	T:a	T:any	T:price	T:,	T:''	T:he	T:.	ccomp-DEP:price	punct-DEP:,	punct-DEP:''	punct-DEP:.
+./PUNCT	punct-HEAD:add	T:a	T:any	T:price	T:,	T:''	T:he	T:add
+i/PRON	T:see	T:the	T:sale	T:staff	T:scramble	T:down	T:the	nsubj-HEAD:see
+see/V	nsubj-DEP:i	T:i	T:the	T:sale	T:staff	T:scramble	T:down	T:the	T:stair	dep-DEP:scramble	punct-DEP:.
+the/DET	T:i	T:see	T:sale	T:staff	T:scramble	T:down	T:the	T:stair	T:.	det-HEAD:staff
+down/UNK	T:i	T:see	T:the	T:sale	T:staff	T:scramble	T:the	T:stair	T:.	prt-HEAD:scramble
+the/DET	T:i	T:see	T:the	T:sale	T:staff	T:scramble	T:down	T:stair	T:.	det-HEAD:stair
+./PUNCT	punct-HEAD:see	T:the	T:sale	T:staff	T:scramble	T:down	T:the	T:stair
+to/UNK	T:other	T:use	T:oxy-acetylene	T:torch	T:cut	T:free	T:those	T:trap	T:in	T:mangled	T:elevator	aux-HEAD:cut
+trap/V	partmod-HEAD:those	T:use	T:oxy-acetylene	T:torch	T:to	T:cut	T:free	T:those	T:in	T:mangled	T:elevator	T:.	prep-DEP:in
+in/CONJ	pobj-DEP:elevator	T:oxy-acetylene	T:torch	T:to	T:cut	T:free	T:those	T:trap	T:mangled	T:elevator	T:.	prep-HEAD:trap
+./PUNCT	punct-HEAD:use	T:cut	T:free	T:those	T:trap	T:in	T:mangled	T:elevator
+``/UNK	T:negotiation	T:be	T:still	T:continue	T:and	T:we	T:hope
+be/V	T:``	T:negotiation	T:still	T:continue	T:and	T:we	T:hope	T:that	T:a	aux-HEAD:continue
+and/CONJ	T:``	T:negotiation	T:be	T:still	T:continue	T:we	T:hope	T:that	T:a	T:amicable	T:agreement	T:can	cc-HEAD:continue
+we/PRON	T:``	T:negotiation	T:be	T:still	T:continue	T:and	T:hope	T:that	T:a	T:amicable	T:agreement	T:can	T:be	nsubj-HEAD:hope
+that/CONJ	T:negotiation	T:be	T:still	T:continue	T:and	T:we	T:hope	T:a	T:amicable	T:agreement	T:can	T:be	T:reach	T:.	complm-HEAD:reach
+a/DET	T:be	T:still	T:continue	T:and	T:we	T:hope	T:that	T:amicable	T:agreement	T:can	T:be	T:reach	T:.	det-HEAD:agreement
+can/UNK	T:and	T:we	T:hope	T:that	T:a	T:amicable	T:agreement	T:be	T:reach	T:.	aux-HEAD:reach
+be/V	T:we	T:hope	T:that	T:a	T:amicable	T:agreement	T:can	T:reach	T:.	auxpass-HEAD:reach
+./PUNCT	T:that	T:a	T:amicable	T:agreement	T:can	T:be	T:reach
+the/DET	T:collapse	T:be	T:the	T:latest	T:of	T:a	T:string	det-HEAD:collapse
+collapse/N	T:the	T:be	T:the	T:latest	T:of	T:a	T:string	T:of	det-DEP:the	nsubj-HEAD:latest
+be/V	cop-HEAD:latest	T:the	T:collapse	T:the	T:latest	T:of	T:a	T:string	T:of	T:disaster
+the/DET	T:the	T:collapse	T:be	T:latest	T:of	T:a	T:string	T:of	T:disaster	T:to	det-HEAD:latest
+of/CONJ	pobj-DEP:string	T:the	T:collapse	T:be	T:the	T:latest	T:a	T:string	T:of	T:disaster	T:to	T:strike	T:in	prep-HEAD:latest
+a/DET	T:the	T:collapse	T:be	T:the	T:latest	T:of	T:string	T:of	T:disaster	T:to	T:strike	T:in	T:south	det-HEAD:string
+of/CONJ	pobj-DEP:disaster	T:collapse	T:be	T:the	T:latest	T:of	T:a	T:string	T:disaster	T:to	T:strike	T:in	T:south	T:koreans	T:in	prep-HEAD:string
+disaster/N	T:be	T:the	T:latest	T:of	T:a	T:string	T:of	T:to	T:strike	T:in	T:south	T:koreans	T:in	T:the	pobj-HEAD:of
+to/UNK	T:the	T:latest	T:of	T:a	T:string	T:of	T:disaster	T:strike	T:in	T:south	T:koreans	T:in	T:the	T:past	aux-HEAD:strike
+strike/V	T:latest	T:of	T:a	T:string	T:of	T:disaster	T:to	T:in	T:south	T:koreans	T:in	T:the	T:past	T:year	prep-DEP:in	prep-DEP:in	infmod-HEAD:latest	aux-DEP:to
+in/CONJ	pobj-DEP:koreans	T:of	T:a	T:string	T:of	T:disaster	T:to	T:strike	T:south	T:koreans	T:in	T:the	T:past	T:year	T:.	prep-HEAD:strike
+south/N	T:a	T:string	T:of	T:disaster	T:to	T:strike	T:in	T:koreans	T:in	T:the	T:past	T:year	T:.	nn-HEAD:koreans
+in/CONJ	pobj-DEP:year	T:of	T:disaster	T:to	T:strike	T:in	T:south	T:koreans	T:the	T:past	T:year	T:.	prep-HEAD:strike
+the/DET	T:disaster	T:to	T:strike	T:in	T:south	T:koreans	T:in	T:past	T:year	T:.	det-HEAD:year
+past/J	T:to	T:strike	T:in	T:south	T:koreans	T:in	T:the	T:year	T:.	amod-HEAD:year
+year/N	amod-DEP:past	T:strike	T:in	T:south	T:koreans	T:in	T:the	T:past	T:.	det-DEP:the	pobj-HEAD:in
+./PUNCT	punct-HEAD:latest	T:in	T:south	T:koreans	T:in	T:the	T:past	T:year
+on/CONJ	T:october	T:31	T:the	T:collapse	T:of	T:a	T:seoul	prep-HEAD:kill
+the/DET	T:on	T:october	T:31	T:collapse	T:of	T:a	T:seoul	T:bridge	T:kill	T:32	det-HEAD:collapse
+collapse/N	T:on	T:october	T:31	T:the	T:of	T:a	T:seoul	T:bridge	T:kill	T:32	T:and	det-DEP:the	nsubj-HEAD:kill	prep-DEP:of
+of/CONJ	pobj-DEP:bridge	T:on	T:october	T:31	T:the	T:collapse	T:a	T:seoul	T:bridge	T:kill	T:32	T:and	T:injure	prep-HEAD:collapse
+a/DET	T:on	T:october	T:31	T:the	T:collapse	T:of	T:seoul	T:bridge	T:kill	T:32	T:and	T:injure	T:score	det-HEAD:bridge
+seoul/N	T:on	T:october	T:31	T:the	T:collapse	T:of	T:a	T:bridge	T:kill	T:32	T:and	T:injure	T:score	T:more	nn-HEAD:bridge
+kill/V	nsubj-DEP:collapse	T:31	T:the	T:collapse	T:of	T:a	T:seoul	T:bridge	T:32	T:and	T:injure	T:score	T:more	T:.	dobj-DEP:32	prep-DEP:on	conj-DEP:injure	punct-DEP:.	cc-DEP:and
+and/CONJ	T:collapse	T:of	T:a	T:seoul	T:bridge	T:kill	T:32	T:injure	T:score	T:more	T:.	cc-HEAD:kill
+injure/V	T:of	T:a	T:seoul	T:bridge	T:kill	T:32	T:and	T:score	T:more	T:.	dobj-DEP:score	conj-HEAD:kill	advmod-DEP:more
+score/N	T:a	T:seoul	T:bridge	T:kill	T:32	T:and	T:injure	T:more	T:.	dobj-HEAD:injure
+more/RB	T:seoul	T:bridge	T:kill	T:32	T:and	T:injure	T:score	T:.	advmod-HEAD:injure
+./PUNCT	punct-HEAD:kill	T:bridge	T:kill	T:32	T:and	T:injure	T:score	T:more
+``/UNK	punct-HEAD:leave	T:when	T:i	T:have	T:get	T:the	T:customer	T:out
+when/UNK	T:``	T:i	T:have	T:get	T:the	T:customer	T:out	T:,	advmod-HEAD:get
+i/PRON	T:``	T:when	T:have	T:get	T:the	T:customer	T:out	T:,	T:i	nsubj-HEAD:get
+have/V	T:``	T:when	T:i	T:get	T:the	T:customer	T:out	T:,	T:i	T:leave	aux-HEAD:get
+get/V	nsubj-DEP:i	T:``	T:when	T:i	T:have	T:the	T:customer	T:out	T:,	T:i	T:leave	T:by	dobj-DEP:customer	advcl-HEAD:leave	prt-DEP:out	aux-DEP:have	advmod-DEP:when
+the/DET	T:``	T:when	T:i	T:have	T:get	T:customer	T:out	T:,	T:i	T:leave	T:by	T:the	det-HEAD:customer
+customer/N	T:``	T:when	T:i	T:have	T:get	T:the	T:out	T:,	T:i	T:leave	T:by	T:the	T:walkway	det-DEP:the	dobj-HEAD:get
+out/UNK	T:``	T:when	T:i	T:have	T:get	T:the	T:customer	T:,	T:i	T:leave	T:by	T:the	T:walkway	T:to	prt-HEAD:get
+,/PUNCT	punct-HEAD:leave	T:when	T:i	T:have	T:get	T:the	T:customer	T:out	T:i	T:leave	T:by	T:the	T:walkway	T:to	T:the
+i/PRON	T:i	T:have	T:get	T:the	T:customer	T:out	T:,	T:leave	T:by	T:the	T:walkway	T:to	T:the	T:next	nsubj-HEAD:leave
+leave/V	nsubj-DEP:i	T:have	T:get	T:the	T:customer	T:out	T:,	T:i	T:by	T:the	T:walkway	T:to	T:the	T:next	T:building	prep-DEP:by	prep-DEP:to	punct-DEP:``	punct-DEP:,	punct-DEP:.	advcl-DEP:get
+by/CONJ	pobj-DEP:walkway	T:get	T:the	T:customer	T:out	T:,	T:i	T:leave	T:the	T:walkway	T:to	T:the	T:next	T:building	T:.	prep-HEAD:leave
+the/DET	T:the	T:customer	T:out	T:,	T:i	T:leave	T:by	T:walkway	T:to	T:the	T:next	T:building	T:.	det-HEAD:walkway
+to/UNK	pobj-DEP:building	T:out	T:,	T:i	T:leave	T:by	T:the	T:walkway	T:the	T:next	T:building	T:.	prep-HEAD:leave
+the/DET	T:,	T:i	T:leave	T:by	T:the	T:walkway	T:to	T:next	T:building	T:.	det-HEAD:building
+next/J	T:i	T:leave	T:by	T:the	T:walkway	T:to	T:the	T:building	T:.	amod-HEAD:building
+building/N	amod-DEP:next	T:leave	T:by	T:the	T:walkway	T:to	T:the	T:next	T:.	det-DEP:the	pobj-HEAD:to
+./PUNCT	punct-HEAD:leave	T:by	T:the	T:walkway	T:to	T:the	T:next	T:building
+christie/N	T:have	T:hardly	T:miss	T:a	T:major	T:international	T:meeting	nsubj-HEAD:miss
+have/V	T:christie	T:hardly	T:miss	T:a	T:major	T:international	T:meeting	T:in	aux-HEAD:miss
+a/DET	T:christie	T:have	T:hardly	T:miss	T:major	T:international	T:meeting	T:in	T:britain	T:in	T:nearly	det-HEAD:meeting
+meeting/N	amod-DEP:major	amod-DEP:international	T:christie	T:have	T:hardly	T:miss	T:a	T:major	T:international	T:in	T:britain	T:in	T:nearly	T:10	T:year	T:as	det-DEP:a	prep-DEP:in	prep-DEP:in	prep-DEP:as	dobj-HEAD:miss
+in/CONJ	pobj-DEP:britain	T:have	T:hardly	T:miss	T:a	T:major	T:international	T:meeting	T:britain	T:in	T:nearly	T:10	T:year	T:as	T:the	prep-HEAD:meeting
+britain/N	T:hardly	T:miss	T:a	T:major	T:international	T:meeting	T:in	T:in	T:nearly	T:10	T:year	T:as	T:the	T:country	pobj-HEAD:in
+in/CONJ	pobj-DEP:year	T:miss	T:a	T:major	T:international	T:meeting	T:in	T:britain	T:nearly	T:10	T:year	T:as	T:the	T:country	T:'s	prep-HEAD:meeting
+10/UNK	T:major	T:international	T:meeting	T:in	T:britain	T:in	T:nearly	T:year	T:as	T:the	T:country	T:'s	T:finest	T:sprinter	quantmod-DEP:nearly	num-HEAD:year
+year/N	T:international	T:meeting	T:in	T:britain	T:in	T:nearly	T:10	T:as	T:the	T:country	T:'s	T:finest	T:sprinter	T:.	num-DEP:10	pobj-HEAD:in
+as/CONJ	pobj-DEP:sprinter	T:meeting	T:in	T:britain	T:in	T:nearly	T:10	T:year	T:the	T:country	T:'s	T:finest	T:sprinter	T:.	prep-HEAD:meeting
+the/DET	T:in	T:britain	T:in	T:nearly	T:10	T:year	T:as	T:country	T:'s	T:finest	T:sprinter	T:.	det-HEAD:country
+'s/UNK	T:in	T:nearly	T:10	T:year	T:as	T:the	T:country	T:finest	T:sprinter	T:.	possessive-HEAD:country
+./PUNCT	punct-HEAD:miss	T:year	T:as	T:the	T:country	T:'s	T:finest	T:sprinter
+then/RB	T:there	T:be	T:a	T:gust	T:of	T:wind	T:and	advmod-HEAD:be
+there/UNK	T:then	T:be	T:a	T:gust	T:of	T:wind	T:and	T:i	expl-HEAD:be
+be/V	nsubj-DEP:gust	T:then	T:there	T:a	T:gust	T:of	T:wind	T:and	T:i	T:flee	dep-DEP:say	expl-DEP:there	conj-DEP:flee	punct-DEP:,	punct-DEP:''	punct-DEP:.	cc-DEP:and	advmod-DEP:then
+a/DET	T:then	T:there	T:be	T:gust	T:of	T:wind	T:and	T:i	T:flee	T:through	det-HEAD:gust
+of/CONJ	pobj-DEP:wind	T:then	T:there	T:be	T:a	T:gust	T:wind	T:and	T:i	T:flee	T:through	T:the	T:back	prep-HEAD:gust
+and/CONJ	T:then	T:there	T:be	T:a	T:gust	T:of	T:wind	T:i	T:flee	T:through	T:the	T:back	T:exit	T:,	cc-HEAD:be
+i/PRON	T:there	T:be	T:a	T:gust	T:of	T:wind	T:and	T:flee	T:through	T:the	T:back	T:exit	T:,	T:''	nsubj-HEAD:flee
+the/DET	T:gust	T:of	T:wind	T:and	T:i	T:flee	T:through	T:back	T:exit	T:,	T:''	T:say	T:one	T:shopper	det-HEAD:exit
+,/PUNCT	punct-HEAD:be	T:and	T:i	T:flee	T:through	T:the	T:back	T:exit	T:''	T:say	T:one	T:shopper	T:.
+''/UNK	punct-HEAD:be	T:i	T:flee	T:through	T:the	T:back	T:exit	T:,	T:say	T:one	T:shopper	T:.
+say/V	T:flee	T:through	T:the	T:back	T:exit	T:,	T:''	T:one	T:shopper	T:.	dep-DEP:shopper	dep-HEAD:be
+one/UNK	T:through	T:the	T:back	T:exit	T:,	T:''	T:say	T:shopper	T:.	num-HEAD:shopper
+shopper/N	T:the	T:back	T:exit	T:,	T:''	T:say	T:one	T:.	num-DEP:one	dep-HEAD:say
+./PUNCT	punct-HEAD:be	T:back	T:exit	T:,	T:''	T:say	T:one	T:shopper
+``/UNK	T:the	T:feeling	T:be	T:that	T:there	T:have	T:to
+the/DET	T:``	T:feeling	T:be	T:that	T:there	T:have	T:to	T:be	det-HEAD:feeling
+be/V	nsubj-DEP:feeling	T:``	T:the	T:feeling	T:that	T:there	T:have	T:to	T:be	T:a	T:conclusion	ccomp-DEP:have
+that/CONJ	T:``	T:the	T:feeling	T:be	T:there	T:have	T:to	T:be	T:a	T:conclusion	T:,	complm-HEAD:have
+there/UNK	T:``	T:the	T:feeling	T:be	T:that	T:have	T:to	T:be	T:a	T:conclusion	T:,	T:one	expl-HEAD:have
+have/V	complm-DEP:that	T:``	T:the	T:feeling	T:be	T:that	T:there	T:to	T:be	T:a	T:conclusion	T:,	T:one	T:way	ccomp-HEAD:be	expl-DEP:there	xcomp-DEP:conclusion
+to/UNK	T:``	T:the	T:feeling	T:be	T:that	T:there	T:have	T:be	T:a	T:conclusion	T:,	T:one	T:way	T:or	aux-HEAD:conclusion
+be/V	cop-HEAD:conclusion	T:the	T:feeling	T:be	T:that	T:there	T:have	T:to	T:a	T:conclusion	T:,	T:one	T:way	T:or	T:another
+a/DET	T:feeling	T:be	T:that	T:there	T:have	T:to	T:be	T:conclusion	T:,	T:one	T:way	T:or	T:another	T:,	det-HEAD:conclusion
+,/PUNCT	punct-HEAD:conclusion	T:that	T:there	T:have	T:to	T:be	T:a	T:conclusion	T:one	T:way	T:or	T:another	T:,	T:pretty	T:soon
+one/UNK	T:there	T:have	T:to	T:be	T:a	T:conclusion	T:,	T:way	T:or	T:another	T:,	T:pretty	T:soon	T:.	num-HEAD:way
+another/DET	T:be	T:a	T:conclusion	T:,	T:one	T:way	T:or	T:,	T:pretty	T:soon	T:.	dep-HEAD:soon
+,/PUNCT	punct-HEAD:soon	T:a	T:conclusion	T:,	T:one	T:way	T:or	T:another	T:pretty	T:soon	T:.
+./PUNCT	T:one	T:way	T:or	T:another	T:,	T:pretty	T:soon
+,/PUNCT	T:pioline	T:who	T:be	T:26	T:last	T:week	T:,	T:desperately
+be/V	cop-HEAD:week	T:pioline	T:,	T:who	T:26	T:last	T:week	T:,	T:desperately	T:need	T:a
+last/J	T:pioline	T:,	T:who	T:be	T:26	T:week	T:,	T:desperately	T:need	T:a	T:successful	T:run	amod-HEAD:week
+,/PUNCT	T:pioline	T:,	T:who	T:be	T:26	T:last	T:week	T:desperately	T:need	T:a	T:successful	T:run	T:after	T:win
+a/DET	T:be	T:26	T:last	T:week	T:,	T:desperately	T:need	T:successful	T:run	T:after	T:win	T:only	T:three	T:match	det-HEAD:run
+after/CONJ	T:week	T:,	T:desperately	T:need	T:a	T:successful	T:run	T:win	T:only	T:three	T:match	T:in	T:he	T:last	prep-HEAD:need	pcomp-DEP:win
+win/V	pcomp-HEAD:after	T:,	T:desperately	T:need	T:a	T:successful	T:run	T:after	T:only	T:three	T:match	T:in	T:he	T:last	T:five	dobj-DEP:match	prep-DEP:in
+only/RB	T:desperately	T:need	T:a	T:successful	T:run	T:after	T:win	T:three	T:match	T:in	T:he	T:last	T:five	T:tournament	quantmod-HEAD:three
+three/UNK	T:need	T:a	T:successful	T:run	T:after	T:win	T:only	T:match	T:in	T:he	T:last	T:five	T:tournament	T:.	quantmod-DEP:only	num-HEAD:match
+in/CONJ	pobj-DEP:tournament	T:successful	T:run	T:after	T:win	T:only	T:three	T:match	T:he	T:last	T:five	T:tournament	T:.	prep-HEAD:win
+he/PRON	T:run	T:after	T:win	T:only	T:three	T:match	T:in	T:last	T:five	T:tournament	T:.	poss-HEAD:tournament
+last/J	T:after	T:win	T:only	T:three	T:match	T:in	T:he	T:five	T:tournament	T:.	amod-HEAD:tournament
+five/UNK	T:win	T:only	T:three	T:match	T:in	T:he	T:last	T:tournament	T:.	num-HEAD:tournament
+./PUNCT	punct-HEAD:need	T:three	T:match	T:in	T:he	T:last	T:five	T:tournament
+a/DET	T:injured	T:cook	T:from	T:a	T:fifth	T:floor	T:restaurant	det-HEAD:cook
+from/CONJ	pobj-DEP:restaurant	T:a	T:injured	T:cook	T:a	T:fifth	T:floor	T:restaurant	T:tell	T:afp	T:he	prep-HEAD:cook
+a/DET	T:a	T:injured	T:cook	T:from	T:fifth	T:floor	T:restaurant	T:tell	T:afp	T:he	T:have	det-HEAD:restaurant
+fifth/J	T:a	T:injured	T:cook	T:from	T:a	T:floor	T:restaurant	T:tell	T:afp	T:he	T:have	T:evacuate	amod-HEAD:floor
+floor/N	amod-DEP:fifth	T:a	T:injured	T:cook	T:from	T:a	T:fifth	T:restaurant	T:tell	T:afp	T:he	T:have	T:evacuate	T:he	nn-HEAD:restaurant
+restaurant/N	T:a	T:injured	T:cook	T:from	T:a	T:fifth	T:floor	T:tell	T:afp	T:he	T:have	T:evacuate	T:he	T:customer	det-DEP:a	nn-DEP:floor	pobj-HEAD:from
+tell/V	nsubj-DEP:cook	T:injured	T:cook	T:from	T:a	T:fifth	T:floor	T:restaurant	T:afp	T:he	T:have	T:evacuate	T:he	T:customer	T:when	dep-DEP:evacuate	dobj-DEP:afp	punct-DEP:.
+he/PRON	T:from	T:a	T:fifth	T:floor	T:restaurant	T:tell	T:afp	T:have	T:evacuate	T:he	T:customer	T:when	T:a	T:gaping	nsubj-HEAD:evacuate
+have/V	T:a	T:fifth	T:floor	T:restaurant	T:tell	T:afp	T:he	T:evacuate	T:he	T:customer	T:when	T:a	T:gaping	T:crack	aux-HEAD:evacuate
+he/PRON	T:floor	T:restaurant	T:tell	T:afp	T:he	T:have	T:evacuate	T:customer	T:when	T:a	T:gaping	T:crack	T:appear	T:in	poss-HEAD:customer
+customer/N	T:restaurant	T:tell	T:afp	T:he	T:have	T:evacuate	T:he	T:when	T:a	T:gaping	T:crack	T:appear	T:in	T:the	poss-DEP:he	dobj-HEAD:evacuate
+when/UNK	T:tell	T:afp	T:he	T:have	T:evacuate	T:he	T:customer	T:a	T:gaping	T:crack	T:appear	T:in	T:the	T:wall	advmod-HEAD:appear
+a/DET	T:afp	T:he	T:have	T:evacuate	T:he	T:customer	T:when	T:gaping	T:crack	T:appear	T:in	T:the	T:wall	T:.	det-HEAD:crack
+crack/N	amod-DEP:gaping	T:have	T:evacuate	T:he	T:customer	T:when	T:a	T:gaping	T:appear	T:in	T:the	T:wall	T:.	det-DEP:a	nsubj-HEAD:appear
+appear/V	nsubj-DEP:crack	T:evacuate	T:he	T:customer	T:when	T:a	T:gaping	T:crack	T:in	T:the	T:wall	T:.	prep-DEP:in	advcl-HEAD:evacuate	advmod-DEP:when
+in/CONJ	pobj-DEP:wall	T:he	T:customer	T:when	T:a	T:gaping	T:crack	T:appear	T:the	T:wall	T:.	prep-HEAD:appear
+the/DET	T:customer	T:when	T:a	T:gaping	T:crack	T:appear	T:in	T:wall	T:.	det-HEAD:wall
+./PUNCT	punct-HEAD:tell	T:a	T:gaping	T:crack	T:appear	T:in	T:the	T:wall
+,/PUNCT	punct-HEAD:su-jong	T:kim	T:su-jong	T:another	T:fifth	T:floor	T:restaurant	T:owner	T:,	T:say
+another/DET	T:kim	T:su-jong	T:,	T:fifth	T:floor	T:restaurant	T:owner	T:,	T:say	T:store	det-HEAD:owner
+fifth/J	T:kim	T:su-jong	T:,	T:another	T:floor	T:restaurant	T:owner	T:,	T:say	T:store	T:boss	amod-HEAD:owner
+floor/N	T:kim	T:su-jong	T:,	T:another	T:fifth	T:restaurant	T:owner	T:,	T:say	T:store	T:boss	T:have	nn-HEAD:restaurant
+restaurant/N	T:kim	T:su-jong	T:,	T:another	T:fifth	T:floor	T:owner	T:,	T:say	T:store	T:boss	T:have	T:tell	nn-DEP:floor	nn-HEAD:owner
+,/PUNCT	punct-HEAD:su-jong	T:su-jong	T:,	T:another	T:fifth	T:floor	T:restaurant	T:owner	T:say	T:store	T:boss	T:have	T:tell	T:some	T:restaurant
+say/V	nsubj-DEP:su-jong	T:,	T:another	T:fifth	T:floor	T:restaurant	T:owner	T:,	T:store	T:boss	T:have	T:tell	T:some	T:restaurant	T:not	ccomp-DEP:tell	punct-DEP:.
+store/N	T:another	T:fifth	T:floor	T:restaurant	T:owner	T:,	T:say	T:boss	T:have	T:tell	T:some	T:restaurant	T:not	T:to	nn-HEAD:boss
+have/V	T:floor	T:restaurant	T:owner	T:,	T:say	T:store	T:boss	T:tell	T:some	T:restaurant	T:not	T:to	T:close	T:until	aux-HEAD:tell
+tell/V	nsubj-DEP:boss	T:restaurant	T:owner	T:,	T:say	T:store	T:boss	T:have	T:some	T:restaurant	T:not	T:to	T:close	T:until	T:they	dobj-DEP:restaurant	ccomp-HEAD:say	xcomp-DEP:close	aux-DEP:have	advcl-DEP:have
+some/DET	T:owner	T:,	T:say	T:store	T:boss	T:have	T:tell	T:restaurant	T:not	T:to	T:close	T:until	T:they	T:have	det-HEAD:restaurant
+restaurant/N	T:,	T:say	T:store	T:boss	T:have	T:tell	T:some	T:not	T:to	T:close	T:until	T:they	T:have	T:to	det-DEP:some	dobj-HEAD:tell
+not/RB	T:say	T:store	T:boss	T:have	T:tell	T:some	T:restaurant	T:to	T:close	T:until	T:they	T:have	T:to	T:.	neg-HEAD:close
+to/UNK	T:store	T:boss	T:have	T:tell	T:some	T:restaurant	T:not	T:close	T:until	T:they	T:have	T:to	T:.	aux-HEAD:close
+they/PRON	T:tell	T:some	T:restaurant	T:not	T:to	T:close	T:until	T:have	T:to	T:.	nsubj-HEAD:have
+have/V	nsubj-DEP:they	T:some	T:restaurant	T:not	T:to	T:close	T:until	T:they	T:to	T:.	mark-DEP:until	prep-DEP:to	advcl-HEAD:tell
+to/UNK	T:restaurant	T:not	T:to	T:close	T:until	T:they	T:have	T:.	prep-HEAD:have
+./PUNCT	punct-HEAD:say	T:not	T:to	T:close	T:until	T:they	T:have	T:to
+rescuer/N	T:troops	T:join	T:back	T:by	T:five	T:helicopter	T:,	T:score	T:of	partmod-DEP:back	dobj-HEAD:join
+by/CONJ	pobj-DEP:helicopter	T:troops	T:join	T:rescuer	T:back	T:five	T:helicopter	T:,	T:score	T:of	T:ambulance	T:and	prep-HEAD:back
+five/UNK	T:troops	T:join	T:rescuer	T:back	T:by	T:helicopter	T:,	T:score	T:of	T:ambulance	T:and	T:firetruck	num-HEAD:helicopter
+,/PUNCT	punct-HEAD:join	T:troops	T:join	T:rescuer	T:back	T:by	T:five	T:helicopter	T:score	T:of	T:ambulance	T:and	T:firetruck	T:as	T:well
+score/N	T:join	T:rescuer	T:back	T:by	T:five	T:helicopter	T:,	T:of	T:ambulance	T:and	T:firetruck	T:as	T:well	T:as	prep-DEP:of	dobj-HEAD:join
+of/CONJ	pobj-DEP:ambulance	T:rescuer	T:back	T:by	T:five	T:helicopter	T:,	T:score	T:ambulance	T:and	T:firetruck	T:as	T:well	T:as	T:forklift	prep-HEAD:score
+ambulance/N	T:back	T:by	T:five	T:helicopter	T:,	T:score	T:of	T:and	T:firetruck	T:as	T:well	T:as	T:forklift	T:.	pobj-HEAD:of	conj-DEP:firetruck	cc-DEP:and
+and/CONJ	T:by	T:five	T:helicopter	T:,	T:score	T:of	T:ambulance	T:firetruck	T:as	T:well	T:as	T:forklift	T:.	cc-HEAD:ambulance
+as/RB	T:helicopter	T:,	T:score	T:of	T:ambulance	T:and	T:firetruck	T:well	T:as	T:forklift	T:.	advmod-HEAD:well
+as/CONJ	T:score	T:of	T:ambulance	T:and	T:firetruck	T:as	T:well	T:forklift	T:.	mwe-HEAD:well
+./PUNCT	punct-HEAD:join	T:ambulance	T:and	T:firetruck	T:as	T:well	T:as	T:forklift
+,/PUNCT	punct-HEAD:plunge	T:meanwhile	T:gas	T:production	T:plunge	T:almost	T:20	T:percent	T:in
+gas/N	T:meanwhile	T:,	T:production	T:plunge	T:almost	T:20	T:percent	T:in	T:may	nn-HEAD:production
+production/N	T:meanwhile	T:,	T:gas	T:plunge	T:almost	T:20	T:percent	T:in	T:may	T:to	nn-DEP:gas	nsubj-HEAD:plunge
+almost/RB	T:meanwhile	T:,	T:gas	T:production	T:plunge	T:20	T:percent	T:in	T:may	T:to	T:164	T:million	quantmod-HEAD:20
+percent/N	T:meanwhile	T:,	T:gas	T:production	T:plunge	T:almost	T:20	T:in	T:may	T:to	T:164	T:million	T:cubic	T:metre	num-DEP:20	dobj-HEAD:plunge
+in/CONJ	pobj-DEP:may	T:,	T:gas	T:production	T:plunge	T:almost	T:20	T:percent	T:may	T:to	T:164	T:million	T:cubic	T:metre	T:,	prep-HEAD:plunge
+to/UNK	pobj-DEP:metre	T:production	T:plunge	T:almost	T:20	T:percent	T:in	T:may	T:164	T:million	T:cubic	T:metre	T:,	T:reflect	T:slacker	prep-HEAD:plunge
+million/UNK	T:almost	T:20	T:percent	T:in	T:may	T:to	T:164	T:cubic	T:metre	T:,	T:reflect	T:slacker	T:seasonal	T:demand	num-HEAD:metre	number-DEP:164
+,/PUNCT	punct-HEAD:plunge	T:in	T:may	T:to	T:164	T:million	T:cubic	T:metre	T:reflect	T:slacker	T:seasonal	T:demand	T:.
+./PUNCT	punct-HEAD:plunge	T:cubic	T:metre	T:,	T:reflect	T:slacker	T:seasonal	T:demand
+christie/N	nsubjpass-HEAD:repute	T:be	T:repute	T:to	T:have	T:ask	T:for	T:a
+be/V	T:christie	T:repute	T:to	T:have	T:ask	T:for	T:a	T:increase	auxpass-HEAD:repute
+to/UNK	T:christie	T:be	T:repute	T:have	T:ask	T:for	T:a	T:increase	T:from	T:36,000	aux-HEAD:ask
+have/V	T:christie	T:be	T:repute	T:to	T:ask	T:for	T:a	T:increase	T:from	T:36,000	T:pound	aux-HEAD:ask
+for/CONJ	pobj-DEP:increase	T:christie	T:be	T:repute	T:to	T:have	T:ask	T:a	T:increase	T:from	T:36,000	T:pound	T:-lrb-	T:about	prep-HEAD:ask
+a/DET	T:christie	T:be	T:repute	T:to	T:have	T:ask	T:for	T:increase	T:from	T:36,000	T:pound	T:-lrb-	T:about	T:58,000	det-HEAD:increase
+from/CONJ	pobj-DEP:pound	T:repute	T:to	T:have	T:ask	T:for	T:a	T:increase	T:36,000	T:pound	T:-lrb-	T:about	T:58,000	T:dollar	T:-rrb-	prep-HEAD:increase
+pound/N	T:have	T:ask	T:for	T:a	T:increase	T:from	T:36,000	T:-lrb-	T:about	T:58,000	T:dollar	T:-rrb-	T:to	T:50,000	num-DEP:36,000	pobj-HEAD:from
+-lrb-/UNK	punct-HEAD:dollar	T:ask	T:for	T:a	T:increase	T:from	T:36,000	T:pound	T:about	T:58,000	T:dollar	T:-rrb-	T:to	T:50,000	T:per
+dollar/N	T:increase	T:from	T:36,000	T:pound	T:-lrb-	T:about	T:58,000	T:-rrb-	T:to	T:50,000	T:per	T:meeting	T:.	num-DEP:58,000	dep-HEAD:increase	punct-DEP:-lrb-	punct-DEP:-rrb-
+-rrb-/UNK	punct-HEAD:dollar	T:from	T:36,000	T:pound	T:-lrb-	T:about	T:58,000	T:dollar	T:to	T:50,000	T:per	T:meeting	T:.
+to/UNK	pobj-DEP:50,000	T:36,000	T:pound	T:-lrb-	T:about	T:58,000	T:dollar	T:-rrb-	T:50,000	T:per	T:meeting	T:.	prep-HEAD:increase
+per/CONJ	pobj-DEP:meeting	T:-lrb-	T:about	T:58,000	T:dollar	T:-rrb-	T:to	T:50,000	T:meeting	T:.	prep-HEAD:increase
+meeting/N	T:about	T:58,000	T:dollar	T:-rrb-	T:to	T:50,000	T:per	T:.	pobj-HEAD:per
+./PUNCT	punct-HEAD:repute	T:58,000	T:dollar	T:-rrb-	T:to	T:50,000	T:per	T:meeting
+the/DET	T:injure	T:,	T:many	T:of	T:they	T:crushed	T:,	det-HEAD:drag
+injure/V	T:the	T:,	T:many	T:of	T:they	T:crushed	T:,	T:bleeding	amod-HEAD:drag
+,/PUNCT	punct-HEAD:drag	T:the	T:injure	T:many	T:of	T:they	T:crushed	T:,	T:bleeding	T:and
+many/J	T:the	T:injure	T:,	T:of	T:they	T:crushed	T:,	T:bleeding	T:and	T:unconscious	nsubj-HEAD:drag	prep-DEP:of
+of/CONJ	pobj-DEP:they	T:the	T:injure	T:,	T:many	T:they	T:crushed	T:,	T:bleeding	T:and	T:unconscious	T:be	prep-HEAD:many
+they/PRON	T:the	T:injure	T:,	T:many	T:of	T:crushed	T:,	T:bleeding	T:and	T:unconscious	T:be	T:drag	pobj-HEAD:of
+crushed/J	T:the	T:injure	T:,	T:many	T:of	T:they	T:,	T:bleeding	T:and	T:unconscious	T:be	T:drag	T:out	dep-HEAD:drag
+,/PUNCT	punct-HEAD:drag	T:the	T:injure	T:,	T:many	T:of	T:they	T:crushed	T:bleeding	T:and	T:unconscious	T:be	T:drag	T:out	T:and
+and/CONJ	T:,	T:many	T:of	T:they	T:crushed	T:,	T:bleeding	T:unconscious	T:be	T:drag	T:out	T:and	T:relay	T:to	cc-HEAD:bleeding
+be/V	T:of	T:they	T:crushed	T:,	T:bleeding	T:and	T:unconscious	T:drag	T:out	T:and	T:relay	T:to	T:a	T:stream	auxpass-HEAD:drag
+out/UNK	T:crushed	T:,	T:bleeding	T:and	T:unconscious	T:be	T:drag	T:and	T:relay	T:to	T:a	T:stream	T:of	T:ambulance	prt-HEAD:drag
+and/CONJ	T:,	T:bleeding	T:and	T:unconscious	T:be	T:drag	T:out	T:relay	T:to	T:a	T:stream	T:of	T:ambulance	T:.	cc-HEAD:drag
+to/UNK	pobj-DEP:stream	T:and	T:unconscious	T:be	T:drag	T:out	T:and	T:relay	T:a	T:stream	T:of	T:ambulance	T:.	prep-HEAD:relay
+a/DET	T:unconscious	T:be	T:drag	T:out	T:and	T:relay	T:to	T:stream	T:of	T:ambulance	T:.	det-HEAD:stream
+of/CONJ	pobj-DEP:ambulance	T:drag	T:out	T:and	T:relay	T:to	T:a	T:stream	T:ambulance	T:.	prep-HEAD:stream
+ambulance/N	T:out	T:and	T:relay	T:to	T:a	T:stream	T:of	T:.	pobj-HEAD:of
+./PUNCT	T:and	T:relay	T:to	T:a	T:stream	T:of	T:ambulance
+a/DET	T:apology	T:by	T:a	T:north	T:korean	T:company	T:,	det-HEAD:apology
+apology/N	T:a	T:by	T:a	T:north	T:korean	T:company	T:,	T:which	det-DEP:a	nsubj-HEAD:enough	prep-DEP:by	punct-DEP:,
+by/CONJ	pobj-DEP:company	T:a	T:apology	T:a	T:north	T:korean	T:company	T:,	T:which	T:have	prep-HEAD:apology
+a/DET	T:a	T:apology	T:by	T:north	T:korean	T:company	T:,	T:which	T:have	T:already	det-HEAD:company
+north/J	T:a	T:apology	T:by	T:a	T:korean	T:company	T:,	T:which	T:have	T:already	T:be	amod-HEAD:korean
+korean/J	amod-DEP:north	T:a	T:apology	T:by	T:a	T:north	T:company	T:,	T:which	T:have	T:already	T:be	T:receive	amod-HEAD:company
+,/PUNCT	punct-HEAD:company	T:a	T:apology	T:by	T:a	T:north	T:korean	T:company	T:which	T:have	T:already	T:be	T:receive	T:,	T:be
+which/DET	T:apology	T:by	T:a	T:north	T:korean	T:company	T:,	T:have	T:already	T:be	T:receive	T:,	T:be	T:not	nsubj-HEAD:receive
+have/V	T:by	T:a	T:north	T:korean	T:company	T:,	T:which	T:already	T:be	T:receive	T:,	T:be	T:not	T:enough	aux-HEAD:receive
+be/V	T:north	T:korean	T:company	T:,	T:which	T:have	T:already	T:receive	T:,	T:be	T:not	T:enough	T:,	T:a	auxpass-HEAD:receive
+,/PUNCT	punct-HEAD:apology	T:company	T:,	T:which	T:have	T:already	T:be	T:receive	T:be	T:not	T:enough	T:,	T:a	T:spokesman	T:for
+be/V	cop-HEAD:enough	T:,	T:which	T:have	T:already	T:be	T:receive	T:,	T:not	T:enough	T:,	T:a	T:spokesman	T:for	T:the
+not/RB	T:which	T:have	T:already	T:be	T:receive	T:,	T:be	T:enough	T:,	T:a	T:spokesman	T:for	T:the	T:south	neg-HEAD:enough
+,/PUNCT	punct-HEAD:enough	T:already	T:be	T:receive	T:,	T:be	T:not	T:enough	T:a	T:spokesman	T:for	T:the	T:south	T:'s	T:national
+a/DET	T:be	T:receive	T:,	T:be	T:not	T:enough	T:,	T:spokesman	T:for	T:the	T:south	T:'s	T:national	T:unification	det-HEAD:spokesman
+for/CONJ	pobj-DEP:board	T:,	T:be	T:not	T:enough	T:,	T:a	T:spokesman	T:the	T:south	T:'s	T:national	T:unification	T:board	T:say	prep-HEAD:spokesman
+the/DET	T:be	T:not	T:enough	T:,	T:a	T:spokesman	T:for	T:south	T:'s	T:national	T:unification	T:board	T:say	T:.	det-HEAD:south
+south/N	T:not	T:enough	T:,	T:a	T:spokesman	T:for	T:the	T:'s	T:national	T:unification	T:board	T:say	T:.	det-DEP:the	poss-HEAD:board	possessive-DEP:'s
+'s/UNK	T:enough	T:,	T:a	T:spokesman	T:for	T:the	T:south	T:national	T:unification	T:board	T:say	T:.	possessive-HEAD:south
+board/N	T:spokesman	T:for	T:the	T:south	T:'s	T:national	T:unification	T:say	T:.	poss-DEP:south	nn-DEP:national	nn-DEP:unification	pobj-HEAD:for
+say/V	T:for	T:the	T:south	T:'s	T:national	T:unification	T:board	T:.	dep-HEAD:enough
+./PUNCT	punct-HEAD:enough	T:the	T:south	T:'s	T:national	T:unification	T:board	T:say
+crack/N	T:have	T:apparently	T:appear	T:in	T:the	T:day	T:lead	nsubj-HEAD:appear
+have/V	T:crack	T:apparently	T:appear	T:in	T:the	T:day	T:lead	T:up	aux-HEAD:appear
+apparently/RB	T:crack	T:have	T:appear	T:in	T:the	T:day	T:lead	T:up	T:to	advmod-HEAD:appear
+appear/V	nsubj-DEP:crack	T:crack	T:have	T:apparently	T:in	T:the	T:day	T:lead	T:up	T:to	T:the	prep-DEP:in	punct-DEP:.	aux-DEP:have	advmod-DEP:apparently
+in/CONJ	pobj-DEP:day	T:crack	T:have	T:apparently	T:appear	T:the	T:day	T:lead	T:up	T:to	T:the	T:collapse	prep-HEAD:appear
+the/DET	T:crack	T:have	T:apparently	T:appear	T:in	T:day	T:lead	T:up	T:to	T:the	T:collapse	T:and	det-HEAD:day
+day/N	T:crack	T:have	T:apparently	T:appear	T:in	T:the	T:lead	T:up	T:to	T:the	T:collapse	T:and	T:police	det-DEP:the	partmod-DEP:lead	pobj-HEAD:in
+up/UNK	T:have	T:apparently	T:appear	T:in	T:the	T:day	T:lead	T:to	T:the	T:collapse	T:and	T:police	T:say	T:the	prt-HEAD:lead
+to/UNK	pobj-DEP:collapse	T:apparently	T:appear	T:in	T:the	T:day	T:lead	T:up	T:the	T:collapse	T:and	T:police	T:say	T:the	T:sampoong	prep-HEAD:lead
+the/DET	T:appear	T:in	T:the	T:day	T:lead	T:up	T:to	T:collapse	T:and	T:police	T:say	T:the	T:sampoong	T:management	det-HEAD:collapse
+collapse/N	T:in	T:the	T:day	T:lead	T:up	T:to	T:the	T:and	T:police	T:say	T:the	T:sampoong	T:management	T:be	det-DEP:the	pobj-HEAD:to	conj-DEP:say	cc-DEP:and
+and/CONJ	T:the	T:day	T:lead	T:up	T:to	T:the	T:collapse	T:police	T:say	T:the	T:sampoong	T:management	T:be	T:meet	cc-HEAD:collapse
+police/N	T:day	T:lead	T:up	T:to	T:the	T:collapse	T:and	T:say	T:the	T:sampoong	T:management	T:be	T:meet	T:to	nsubj-HEAD:say
+say/V	nsubj-DEP:police	T:lead	T:up	T:to	T:the	T:collapse	T:and	T:police	T:the	T:sampoong	T:management	T:be	T:meet	T:to	T:discuss	conj-HEAD:collapse	ccomp-DEP:meet
+the/DET	T:up	T:to	T:the	T:collapse	T:and	T:police	T:say	T:sampoong	T:management	T:be	T:meet	T:to	T:discuss	T:what	det-HEAD:management
+sampoong/N	T:to	T:the	T:collapse	T:and	T:police	T:say	T:the	T:management	T:be	T:meet	T:to	T:discuss	T:what	T:to	nn-HEAD:management
+be/V	T:collapse	T:and	T:police	T:say	T:the	T:sampoong	T:management	T:meet	T:to	T:discuss	T:what	T:to	T:do	T:when	aux-HEAD:meet
+to/UNK	T:police	T:say	T:the	T:sampoong	T:management	T:be	T:meet	T:discuss	T:what	T:to	T:do	T:when	T:disaster	T:strike	aux-HEAD:discuss
+to/UNK	T:sampoong	T:management	T:be	T:meet	T:to	T:discuss	T:what	T:do	T:when	T:disaster	T:strike	T:.	aux-HEAD:do
+when/UNK	T:be	T:meet	T:to	T:discuss	T:what	T:to	T:do	T:disaster	T:strike	T:.	advmod-HEAD:strike
+disaster/N	T:meet	T:to	T:discuss	T:what	T:to	T:do	T:when	T:strike	T:.	nsubj-HEAD:strike
+strike/V	nsubj-DEP:disaster	T:to	T:discuss	T:what	T:to	T:do	T:when	T:disaster	T:.	advcl-HEAD:do	advmod-DEP:when
+./PUNCT	punct-HEAD:appear	T:discuss	T:what	T:to	T:do	T:when	T:disaster	T:strike
+there/UNK	T:be	T:three	T:loud	T:bang	T:in	T:succession	T:,	expl-HEAD:be
+be/V	nsubj-DEP:say	T:there	T:three	T:loud	T:bang	T:in	T:succession	T:,	T:then	expl-DEP:there	punct-DEP:.
+three/UNK	T:there	T:be	T:loud	T:bang	T:in	T:succession	T:,	T:then	T:a	ccomp-HEAD:say	conj-DEP:throw	rcmod-DEP:bang	cc-DEP:and
+in/CONJ	pobj-DEP:succession	T:there	T:be	T:three	T:loud	T:bang	T:succession	T:,	T:then	T:a	T:rumble	T:sound	T:and	prep-HEAD:bang
+,/PUNCT	punct-HEAD:bang	T:there	T:be	T:three	T:loud	T:bang	T:in	T:succession	T:then	T:a	T:rumble	T:sound	T:and	T:i	T:be
+then/RB	T:be	T:three	T:loud	T:bang	T:in	T:succession	T:,	T:a	T:rumble	T:sound	T:and	T:i	T:be	T:throw	advmod-HEAD:bang
+a/DET	T:three	T:loud	T:bang	T:in	T:succession	T:,	T:then	T:rumble	T:sound	T:and	T:i	T:be	T:throw	T:down	det-HEAD:sound
+and/CONJ	T:in	T:succession	T:,	T:then	T:a	T:rumble	T:sound	T:i	T:be	T:throw	T:down	T:,	T:''	T:a	cc-HEAD:three
+i/PRON	nsubjpass-HEAD:throw	T:succession	T:,	T:then	T:a	T:rumble	T:sound	T:and	T:be	T:throw	T:down	T:,	T:''	T:a	T:bleeding
+be/V	T:,	T:then	T:a	T:rumble	T:sound	T:and	T:i	T:throw	T:down	T:,	T:''	T:a	T:bleeding	T:o	auxpass-HEAD:throw
+,/PUNCT	punct-HEAD:say	T:rumble	T:sound	T:and	T:i	T:be	T:throw	T:down	T:''	T:a	T:bleeding	T:o	T:sang-yong	T:say	T:.
+''/UNK	punct-HEAD:say	T:sound	T:and	T:i	T:be	T:throw	T:down	T:,	T:a	T:bleeding	T:o	T:sang-yong	T:say	T:.
+a/DET	T:and	T:i	T:be	T:throw	T:down	T:,	T:''	T:bleeding	T:o	T:sang-yong	T:say	T:.	det-HEAD:o
+say/V	nsubj-DEP:sang-yong	T:down	T:,	T:''	T:a	T:bleeding	T:o	T:sang-yong	T:.	nsubj-HEAD:be	ccomp-DEP:three	punct-DEP:,	punct-DEP:''
+./PUNCT	punct-HEAD:be	T:,	T:''	T:a	T:bleeding	T:o	T:sang-yong	T:say
+a/DET	T:mechanised	T:infantry	T:unit	T:,	T:a	T:airborne	T:unit	det-HEAD:unit
+unit/N	amod-DEP:mechanised	nsubjpass-HEAD:involve	T:a	T:mechanised	T:infantry	T:,	T:a	T:airborne	T:unit	T:and	T:a	T:border	det-DEP:a	nn-DEP:infantry	conj-DEP:unit	conj-DEP:unit	punct-DEP:,	cc-DEP:and
+,/PUNCT	punct-HEAD:unit	T:a	T:mechanised	T:infantry	T:unit	T:a	T:airborne	T:unit	T:and	T:a	T:border	T:guard
+a/DET	T:a	T:mechanised	T:infantry	T:unit	T:,	T:airborne	T:unit	T:and	T:a	T:border	T:guard	T:unit	det-HEAD:unit
+unit/N	amod-DEP:airborne	T:a	T:mechanised	T:infantry	T:unit	T:,	T:a	T:airborne	T:and	T:a	T:border	T:guard	T:unit	T:be	T:involve	det-DEP:a	conj-HEAD:unit
+and/CONJ	T:mechanised	T:infantry	T:unit	T:,	T:a	T:airborne	T:unit	T:a	T:border	T:guard	T:unit	T:be	T:involve	T:in	cc-HEAD:unit
+a/DET	T:infantry	T:unit	T:,	T:a	T:airborne	T:unit	T:and	T:border	T:guard	T:unit	T:be	T:involve	T:in	T:the	det-HEAD:unit
+border/N	T:unit	T:,	T:a	T:airborne	T:unit	T:and	T:a	T:guard	T:unit	T:be	T:involve	T:in	T:the	T:movement	nn-HEAD:unit
+unit/N	T:a	T:airborne	T:unit	T:and	T:a	T:border	T:guard	T:be	T:involve	T:in	T:the	T:movement	T:,	T:general	det-DEP:a	nn-DEP:border	nn-DEP:guard	conj-HEAD:unit
+be/V	T:airborne	T:unit	T:and	T:a	T:border	T:guard	T:unit	T:involve	T:in	T:the	T:movement	T:,	T:general	T:abdallah	auxpass-HEAD:involve
+in/CONJ	pobj-DEP:movement	T:and	T:a	T:border	T:guard	T:unit	T:be	T:involve	T:the	T:movement	T:,	T:general	T:abdallah	T:oweida	T:tell	prep-HEAD:involve
+the/DET	T:a	T:border	T:guard	T:unit	T:be	T:involve	T:in	T:movement	T:,	T:general	T:abdallah	T:oweida	T:tell	T:the	det-HEAD:movement
+movement/N	T:border	T:guard	T:unit	T:be	T:involve	T:in	T:the	T:,	T:general	T:abdallah	T:oweida	T:tell	T:the	T:sudanese	det-DEP:the	pobj-HEAD:in
+,/PUNCT	punct-HEAD:involve	T:guard	T:unit	T:be	T:involve	T:in	T:the	T:movement	T:general	T:abdallah	T:oweida	T:tell	T:the	T:sudanese	T:parliament
+general/N	T:unit	T:be	T:involve	T:in	T:the	T:movement	T:,	T:abdallah	T:oweida	T:tell	T:the	T:sudanese	T:parliament	T:.	nn-HEAD:oweida
+tell/V	nsubj-DEP:oweida	T:in	T:the	T:movement	T:,	T:general	T:abdallah	T:oweida	T:the	T:sudanese	T:parliament	T:.	dobj-DEP:parliament	ccomp-HEAD:involve
+the/DET	T:the	T:movement	T:,	T:general	T:abdallah	T:oweida	T:tell	T:sudanese	T:parliament	T:.	det-HEAD:parliament
+./PUNCT	punct-HEAD:involve	T:general	T:abdallah	T:oweida	T:tell	T:the	T:sudanese	T:parliament
+he/PRON	T:add	T:that	T:the	T:ship	T:carry	T:the	T:second	nsubj-HEAD:add
+add/V	nsubj-DEP:he	T:he	T:that	T:the	T:ship	T:carry	T:the	T:second	T:2,000	dep-DEP:have	ccomp-DEP:carry	conj-DEP:order	punct-DEP:,	punct-DEP:.	cc-DEP:and
+that/CONJ	T:he	T:add	T:the	T:ship	T:carry	T:the	T:second	T:2,000	T:tonne	complm-HEAD:carry
+the/DET	T:he	T:add	T:that	T:ship	T:carry	T:the	T:second	T:2,000	T:tonne	T:have	det-HEAD:ship
+the/DET	T:he	T:add	T:that	T:the	T:ship	T:carry	T:second	T:2,000	T:tonne	T:have	T:yet	T:to	T:enter	det-HEAD:tonne
+second/J	T:he	T:add	T:that	T:the	T:ship	T:carry	T:the	T:2,000	T:tonne	T:have	T:yet	T:to	T:enter	T:north	amod-HEAD:tonne
+have/V	T:the	T:ship	T:carry	T:the	T:second	T:2,000	T:tonne	T:yet	T:to	T:enter	T:north	T:korean	T:water	T:,	dep-HEAD:add	xcomp-DEP:enter	advmod-DEP:yet
+to/UNK	T:carry	T:the	T:second	T:2,000	T:tonne	T:have	T:yet	T:enter	T:north	T:korean	T:water	T:,	T:and	T:have	aux-HEAD:enter
+north/J	T:second	T:2,000	T:tonne	T:have	T:yet	T:to	T:enter	T:korean	T:water	T:,	T:and	T:have	T:be	T:order	amod-HEAD:korean
+korean/J	amod-DEP:north	T:2,000	T:tonne	T:have	T:yet	T:to	T:enter	T:north	T:water	T:,	T:and	T:have	T:be	T:order	T:to	amod-HEAD:water
+water/N	amod-DEP:korean	T:tonne	T:have	T:yet	T:to	T:enter	T:north	T:korean	T:,	T:and	T:have	T:be	T:order	T:to	T:return	dobj-HEAD:enter
+,/PUNCT	punct-HEAD:add	T:have	T:yet	T:to	T:enter	T:north	T:korean	T:water	T:and	T:have	T:be	T:order	T:to	T:return	T:.
+and/CONJ	T:yet	T:to	T:enter	T:north	T:korean	T:water	T:,	T:have	T:be	T:order	T:to	T:return	T:.	cc-HEAD:add
+have/V	T:to	T:enter	T:north	T:korean	T:water	T:,	T:and	T:be	T:order	T:to	T:return	T:.	aux-HEAD:order
+be/V	T:enter	T:north	T:korean	T:water	T:,	T:and	T:have	T:order	T:to	T:return	T:.	auxpass-HEAD:order
+to/UNK	T:korean	T:water	T:,	T:and	T:have	T:be	T:order	T:return	T:.	aux-HEAD:return
+./PUNCT	punct-HEAD:add	T:,	T:and	T:have	T:be	T:order	T:to	T:return
+smoke/N	T:billow	T:from	T:fire	T:in	T:the	T:four	T:underground	T:floor
+from/CONJ	pobj-DEP:fire	T:billow	T:smoke	T:fire	T:in	T:the	T:four	T:underground	T:floor	T:,
+in/CONJ	pobj-DEP:floor	T:billow	T:smoke	T:from	T:fire	T:the	T:four	T:underground	T:floor	T:,	T:a	T:gas
+the/DET	T:billow	T:smoke	T:from	T:fire	T:in	T:four	T:underground	T:floor	T:,	T:a	T:gas	T:leak	det-HEAD:floor
+four/UNK	T:billow	T:smoke	T:from	T:fire	T:in	T:the	T:underground	T:floor	T:,	T:a	T:gas	T:leak	T:and	num-HEAD:floor
+floor/N	amod-DEP:underground	T:smoke	T:from	T:fire	T:in	T:the	T:four	T:underground	T:,	T:a	T:gas	T:leak	T:and	T:the	T:danger	det-DEP:the	num-DEP:four	pobj-HEAD:in
+,/PUNCT	punct-HEAD:drive	T:from	T:fire	T:in	T:the	T:four	T:underground	T:floor	T:a	T:gas	T:leak	T:and	T:the	T:danger	T:of
+a/DET	T:fire	T:in	T:the	T:four	T:underground	T:floor	T:,	T:gas	T:leak	T:and	T:the	T:danger	T:of	T:a	det-HEAD:leak
+gas/N	T:in	T:the	T:four	T:underground	T:floor	T:,	T:a	T:leak	T:and	T:the	T:danger	T:of	T:a	T:second	nn-HEAD:leak
+and/CONJ	T:four	T:underground	T:floor	T:,	T:a	T:gas	T:leak	T:the	T:danger	T:of	T:a	T:second	T:wing	T:of	cc-HEAD:leak
+the/DET	T:underground	T:floor	T:,	T:a	T:gas	T:leak	T:and	T:danger	T:of	T:a	T:second	T:wing	T:of	T:the	det-HEAD:danger
+of/CONJ	pobj-DEP:wing	T:,	T:a	T:gas	T:leak	T:and	T:the	T:danger	T:a	T:second	T:wing	T:of	T:the	T:building	T:collapse	prep-HEAD:danger
+a/DET	T:a	T:gas	T:leak	T:and	T:the	T:danger	T:of	T:second	T:wing	T:of	T:the	T:building	T:collapse	T:repeatedly	det-HEAD:wing
+second/J	T:gas	T:leak	T:and	T:the	T:danger	T:of	T:a	T:wing	T:of	T:the	T:building	T:collapse	T:repeatedly	T:drive	amod-HEAD:wing
+wing/N	amod-DEP:second	T:leak	T:and	T:the	T:danger	T:of	T:a	T:second	T:of	T:the	T:building	T:collapse	T:repeatedly	T:drive	T:back	det-DEP:a	pobj-HEAD:of	prep-DEP:of
+of/CONJ	pobj-DEP:building	T:and	T:the	T:danger	T:of	T:a	T:second	T:wing	T:the	T:building	T:collapse	T:repeatedly	T:drive	T:back	T:rescuer	prep-HEAD:wing
+the/DET	T:the	T:danger	T:of	T:a	T:second	T:wing	T:of	T:building	T:collapse	T:repeatedly	T:drive	T:back	T:rescuer	T:.	det-HEAD:building
+building/N	T:danger	T:of	T:a	T:second	T:wing	T:of	T:the	T:collapse	T:repeatedly	T:drive	T:back	T:rescuer	T:.	det-DEP:the	pobj-HEAD:of
+collapse/V	partmod-HEAD:danger	T:of	T:a	T:second	T:wing	T:of	T:the	T:building	T:repeatedly	T:drive	T:back	T:rescuer	T:.	advmod-DEP:repeatedly
+rescuer/N	T:of	T:the	T:building	T:collapse	T:repeatedly	T:drive	T:back	T:.	dobj-HEAD:drive
+./PUNCT	punct-HEAD:drive	T:the	T:building	T:collapse	T:repeatedly	T:drive	T:back	T:rescuer
+a/DET	T:crowded	T:five-storey	T:seoul	T:department	T:store	T:collapse	T:thursday	det-HEAD:store
+seoul/N	T:a	T:crowded	T:five-storey	T:department	T:store	T:collapse	T:thursday	T:,	T:kill	T:dozen	nn-HEAD:store
+store/N	amod-DEP:crowded	amod-DEP:five-storey	T:a	T:crowded	T:five-storey	T:seoul	T:department	T:collapse	T:thursday	T:,	T:kill	T:dozen	T:of	T:people	det-DEP:a	nn-DEP:seoul	nn-DEP:department	nsubj-HEAD:collapse
+collapse/V	nsubj-DEP:store	tmod-DEP:thursday	T:a	T:crowded	T:five-storey	T:seoul	T:department	T:store	T:thursday	T:,	T:kill	T:dozen	T:of	T:people	T:and	xcomp-DEP:kill	conj-DEP:leave	punct-DEP:,	punct-DEP:.	cc-DEP:and
+thursday/N	T:a	T:crowded	T:five-storey	T:seoul	T:department	T:store	T:collapse	T:,	T:kill	T:dozen	T:of	T:people	T:and	T:leave	tmod-HEAD:collapse
+,/PUNCT	punct-HEAD:collapse	T:crowded	T:five-storey	T:seoul	T:department	T:store	T:collapse	T:thursday	T:kill	T:dozen	T:of	T:people	T:and	T:leave	T:up
+kill/V	T:five-storey	T:seoul	T:department	T:store	T:collapse	T:thursday	T:,	T:dozen	T:of	T:people	T:and	T:leave	T:up	T:to	dobj-DEP:dozen	xcomp-HEAD:collapse
+of/CONJ	pobj-DEP:people	T:department	T:store	T:collapse	T:thursday	T:,	T:kill	T:dozen	T:people	T:and	T:leave	T:up	T:to	T:300	T:end-of-day	prep-HEAD:dozen
+people/N	T:store	T:collapse	T:thursday	T:,	T:kill	T:dozen	T:of	T:and	T:leave	T:up	T:to	T:300	T:end-of-day	T:shopper	pobj-HEAD:of
+and/CONJ	T:collapse	T:thursday	T:,	T:kill	T:dozen	T:of	T:people	T:leave	T:up	T:to	T:300	T:end-of-day	T:shopper	T:and	cc-HEAD:collapse
+leave/V	T:thursday	T:,	T:kill	T:dozen	T:of	T:people	T:and	T:up	T:to	T:300	T:end-of-day	T:shopper	T:and	T:assistant	conj-HEAD:collapse	prep-DEP:to	prt-DEP:up
+up/UNK	T:,	T:kill	T:dozen	T:of	T:people	T:and	T:leave	T:to	T:300	T:end-of-day	T:shopper	T:and	T:assistant	T:trap	prt-HEAD:leave
+to/UNK	pobj-DEP:shopper	T:kill	T:dozen	T:of	T:people	T:and	T:leave	T:up	T:300	T:end-of-day	T:shopper	T:and	T:assistant	T:trap	T:under	prep-HEAD:leave
+shopper/N	amod-DEP:end-of-day	T:people	T:and	T:leave	T:up	T:to	T:300	T:end-of-day	T:and	T:assistant	T:trap	T:under	T:smoking	T:debris	T:.	partmod-DEP:trap	num-DEP:300	pobj-HEAD:to	conj-DEP:assistant	cc-DEP:and
+and/CONJ	T:and	T:leave	T:up	T:to	T:300	T:end-of-day	T:shopper	T:assistant	T:trap	T:under	T:smoking	T:debris	T:.	cc-HEAD:shopper
+trap/V	partmod-HEAD:shopper	T:up	T:to	T:300	T:end-of-day	T:shopper	T:and	T:assistant	T:under	T:smoking	T:debris	T:.	prep-DEP:under
+./PUNCT	punct-HEAD:collapse	T:shopper	T:and	T:assistant	T:trap	T:under	T:smoking	T:debris
+``/UNK	punct-HEAD:.	T:we	T:be	T:accomplish	T:this	T:joint	T:work	T:with
+we/PRON	T:``	T:be	T:accomplish	T:this	T:joint	T:work	T:with	T:a	nsubj-HEAD:accomplish
+be/V	T:``	T:we	T:accomplish	T:this	T:joint	T:work	T:with	T:a	T:lot	aux-HEAD:accomplish
+work/N	amod-DEP:joint	T:``	T:we	T:be	T:accomplish	T:this	T:joint	T:with	T:a	T:lot	T:of	T:success	T:.	T:''	det-DEP:this	prep-DEP:with	dobj-HEAD:accomplish
+with/CONJ	pobj-DEP:lot	T:``	T:we	T:be	T:accomplish	T:this	T:joint	T:work	T:a	T:lot	T:of	T:success	T:.	T:''	prep-HEAD:work
+a/DET	T:we	T:be	T:accomplish	T:this	T:joint	T:work	T:with	T:lot	T:of	T:success	T:.	T:''	det-HEAD:lot
+of/CONJ	pobj-DEP:success	T:accomplish	T:this	T:joint	T:work	T:with	T:a	T:lot	T:success	T:.	T:''	prep-HEAD:lot
+./PUNCT	T:joint	T:work	T:with	T:a	T:lot	T:of	T:success	T:''	csubjpass-DEP:accomplish	punct-DEP:``	punct-DEP:''
+''/UNK	punct-HEAD:.	T:work	T:with	T:a	T:lot	T:of	T:success	T:.
+score/N	T:of	T:car	T:around	T:the	T:store	T:be	T:crushed	nsubj-HEAD:crushed
+of/CONJ	pobj-DEP:car	T:score	T:car	T:around	T:the	T:store	T:be	T:crushed	T:and
+the/DET	T:score	T:of	T:car	T:around	T:store	T:be	T:crushed	T:and	T:frantic	T:family	T:member	det-HEAD:store
+store/N	T:score	T:of	T:car	T:around	T:the	T:be	T:crushed	T:and	T:frantic	T:family	T:member	T:try	det-DEP:the	pobj-HEAD:around
+be/V	cop-HEAD:crushed	T:score	T:of	T:car	T:around	T:the	T:store	T:crushed	T:and	T:frantic	T:family	T:member	T:try	T:to
+crushed/J	nsubj-DEP:score	T:score	T:of	T:car	T:around	T:the	T:store	T:be	T:and	T:frantic	T:family	T:member	T:try	T:to	T:fight	cop-DEP:be	ccomp-DEP:say	conj-DEP:try	punct-DEP:,	punct-DEP:.	cc-DEP:and
+and/CONJ	T:of	T:car	T:around	T:the	T:store	T:be	T:crushed	T:frantic	T:family	T:member	T:try	T:to	T:fight	T:past	cc-HEAD:crushed
+to/UNK	T:be	T:crushed	T:and	T:frantic	T:family	T:member	T:try	T:fight	T:past	T:police	T:cordon	T:to	T:search	T:for	aux-HEAD:fight
+past/J	T:and	T:frantic	T:family	T:member	T:try	T:to	T:fight	T:police	T:cordon	T:to	T:search	T:for	T:relative	T:,	amod-HEAD:cordon
+police/N	T:frantic	T:family	T:member	T:try	T:to	T:fight	T:past	T:cordon	T:to	T:search	T:for	T:relative	T:,	T:police	nn-HEAD:cordon
+to/UNK	T:member	T:try	T:to	T:fight	T:past	T:police	T:cordon	T:search	T:for	T:relative	T:,	T:police	T:say	T:.	aux-HEAD:search
+for/CONJ	pobj-DEP:relative	T:to	T:fight	T:past	T:police	T:cordon	T:to	T:search	T:relative	T:,	T:police	T:say	T:.	prep-HEAD:search
+,/PUNCT	punct-HEAD:crushed	T:past	T:police	T:cordon	T:to	T:search	T:for	T:relative	T:police	T:say	T:.
+police/N	T:police	T:cordon	T:to	T:search	T:for	T:relative	T:,	T:say	T:.	nsubj-HEAD:say
+say/V	nsubj-DEP:police	T:cordon	T:to	T:search	T:for	T:relative	T:,	T:police	T:.	ccomp-HEAD:crushed
+./PUNCT	punct-HEAD:crushed	T:to	T:search	T:for	T:relative	T:,	T:police	T:say
+in/CONJ	T:december	T:7	T:last	T:year	T:,	T:12	T:people	prep-HEAD:kill
+last/J	T:in	T:december	T:7	T:year	T:,	T:12	T:people	T:be	T:kill	T:and	amod-HEAD:year
+year/N	amod-DEP:last	T:in	T:december	T:7	T:last	T:,	T:12	T:people	T:be	T:kill	T:and	T:hundred	tmod-HEAD:kill
+,/PUNCT	punct-HEAD:kill	T:in	T:december	T:7	T:last	T:year	T:12	T:people	T:be	T:kill	T:and	T:hundred	T:leave
+people/N	nsubjpass-HEAD:kill	T:in	T:december	T:7	T:last	T:year	T:,	T:12	T:be	T:kill	T:and	T:hundred	T:leave	T:homeless	T:in	num-DEP:12
+be/V	T:december	T:7	T:last	T:year	T:,	T:12	T:people	T:kill	T:and	T:hundred	T:leave	T:homeless	T:in	T:the	auxpass-HEAD:kill
+kill/V	nsubjpass-DEP:people	tmod-DEP:year	T:7	T:last	T:year	T:,	T:12	T:people	T:be	T:and	T:hundred	T:leave	T:homeless	T:in	T:the	T:explosion	auxpass-DEP:be	prep-DEP:in	conj-DEP:leave	punct-DEP:,	punct-DEP:.	cc-DEP:and
+and/CONJ	T:last	T:year	T:,	T:12	T:people	T:be	T:kill	T:hundred	T:leave	T:homeless	T:in	T:the	T:explosion	T:of	cc-HEAD:kill
+leave/V	nsubj-DEP:hundred	T:,	T:12	T:people	T:be	T:kill	T:and	T:hundred	T:homeless	T:in	T:the	T:explosion	T:of	T:a	T:gas	acomp-DEP:homeless	conj-HEAD:kill	prep-DEP:in
+in/CONJ	pobj-DEP:explosion	T:people	T:be	T:kill	T:and	T:hundred	T:leave	T:homeless	T:the	T:explosion	T:of	T:a	T:gas	T:reservoir	T:in	prep-HEAD:leave
+the/DET	T:be	T:kill	T:and	T:hundred	T:leave	T:homeless	T:in	T:explosion	T:of	T:a	T:gas	T:reservoir	T:in	T:seoul	det-HEAD:explosion
+explosion/N	T:kill	T:and	T:hundred	T:leave	T:homeless	T:in	T:the	T:of	T:a	T:gas	T:reservoir	T:in	T:seoul	T:.	det-DEP:the	pobj-HEAD:in	prep-DEP:of	prep-DEP:in
+of/CONJ	pobj-DEP:reservoir	T:and	T:hundred	T:leave	T:homeless	T:in	T:the	T:explosion	T:a	T:gas	T:reservoir	T:in	T:seoul	T:.	prep-HEAD:explosion
+a/DET	T:hundred	T:leave	T:homeless	T:in	T:the	T:explosion	T:of	T:gas	T:reservoir	T:in	T:seoul	T:.	det-HEAD:reservoir
+gas/N	T:leave	T:homeless	T:in	T:the	T:explosion	T:of	T:a	T:reservoir	T:in	T:seoul	T:.	nn-HEAD:reservoir
+in/CONJ	pobj-DEP:seoul	T:in	T:the	T:explosion	T:of	T:a	T:gas	T:reservoir	T:seoul	T:.	prep-HEAD:explosion
+seoul/N	T:the	T:explosion	T:of	T:a	T:gas	T:reservoir	T:in	T:.	pobj-HEAD:in
+./PUNCT	punct-HEAD:kill	T:explosion	T:of	T:a	T:gas	T:reservoir	T:in	T:seoul
+``/UNK	punct-HEAD:say	T:together	T:we	T:be	T:build	T:the	T:future	T:base
+together/RB	T:``	T:we	T:be	T:build	T:the	T:future	T:base	T:on	advmod-HEAD:build
+we/PRON	T:``	T:together	T:be	T:build	T:the	T:future	T:base	T:on	T:the	nsubj-HEAD:build
+be/V	T:``	T:together	T:we	T:build	T:the	T:future	T:base	T:on	T:the	T:principle	aux-HEAD:build
+the/DET	T:``	T:together	T:we	T:be	T:build	T:future	T:base	T:on	T:the	T:principle	T:of	T:cooperation	det-HEAD:future
+on/CONJ	pcomp-HEAD:base	pobj-DEP:principle	T:together	T:we	T:be	T:build	T:the	T:future	T:base	T:the	T:principle	T:of	T:cooperation	T:and	T:friendship	T:,
+the/DET	T:we	T:be	T:build	T:the	T:future	T:base	T:on	T:principle	T:of	T:cooperation	T:and	T:friendship	T:,	T:''	det-HEAD:principle
+of/CONJ	pobj-DEP:cooperation	T:build	T:the	T:future	T:base	T:on	T:the	T:principle	T:cooperation	T:and	T:friendship	T:,	T:''	T:gibson	T:say	prep-HEAD:principle
+and/CONJ	T:future	T:base	T:on	T:the	T:principle	T:of	T:cooperation	T:friendship	T:,	T:''	T:gibson	T:say	T:in	T:russian	cc-HEAD:cooperation
+,/PUNCT	punct-HEAD:say	T:on	T:the	T:principle	T:of	T:cooperation	T:and	T:friendship	T:''	T:gibson	T:say	T:in	T:russian	T:.
+''/UNK	punct-HEAD:say	T:the	T:principle	T:of	T:cooperation	T:and	T:friendship	T:,	T:gibson	T:say	T:in	T:russian	T:.
+say/V	nsubj-DEP:gibson	T:of	T:cooperation	T:and	T:friendship	T:,	T:''	T:gibson	T:in	T:russian	T:.	prep-DEP:in	ccomp-DEP:build	punct-DEP:``	punct-DEP:,	punct-DEP:''	punct-DEP:.
+in/CONJ	pobj-DEP:russian	T:cooperation	T:and	T:friendship	T:,	T:''	T:gibson	T:say	T:russian	T:.	prep-HEAD:say
+./PUNCT	punct-HEAD:say	T:friendship	T:,	T:''	T:gibson	T:say	T:in	T:russian
+the/DET	T:10	T:be	T:to	T:sleep	T:during	T:the	T:same	det-HEAD:10
+10/UNK	T:the	T:be	T:to	T:sleep	T:during	T:the	T:same	T:eight-hour	det-DEP:the	nsubj-HEAD:be
+be/V	nsubj-DEP:10	T:the	T:10	T:to	T:sleep	T:during	T:the	T:same	T:eight-hour	T:period	xcomp-DEP:sleep	conj-DEP:share	punct-DEP:.	cc-DEP:and
+to/UNK	T:the	T:10	T:be	T:sleep	T:during	T:the	T:same	T:eight-hour	T:period	T:each	aux-HEAD:sleep
+the/DET	T:the	T:10	T:be	T:to	T:sleep	T:during	T:same	T:eight-hour	T:period	T:each	T:day	T:and	T:share	det-HEAD:period
+day/N	T:sleep	T:during	T:the	T:same	T:eight-hour	T:period	T:each	T:and	T:share	T:some	T:meal	T:together	T:.	det-DEP:each	tmod-HEAD:period
+and/CONJ	T:during	T:the	T:same	T:eight-hour	T:period	T:each	T:day	T:share	T:some	T:meal	T:together	T:.	cc-HEAD:be
+some/DET	T:same	T:eight-hour	T:period	T:each	T:day	T:and	T:share	T:meal	T:together	T:.	det-HEAD:meal
+together/RB	T:period	T:each	T:day	T:and	T:share	T:some	T:meal	T:.	advmod-HEAD:share
+./PUNCT	punct-HEAD:be	T:each	T:day	T:and	T:share	T:some	T:meal	T:together
+the/DET	T:store	T:,	T:which	T:have	T:be	T:crowd	T:with	det-HEAD:store
+store/N	T:the	T:,	T:which	T:have	T:be	T:crowd	T:with	T:shopper	det-DEP:the	nsubj-HEAD:collapse	punct-DEP:,	punct-DEP:,	rcmod-DEP:crowd
+,/PUNCT	punct-HEAD:store	T:the	T:store	T:which	T:have	T:be	T:crowd	T:with	T:shopper	T:,
+which/DET	nsubjpass-HEAD:crowd	T:the	T:store	T:,	T:have	T:be	T:crowd	T:with	T:shopper	T:,	T:collapse
+have/V	T:the	T:store	T:,	T:which	T:be	T:crowd	T:with	T:shopper	T:,	T:collapse	T:within	aux-HEAD:crowd
+be/V	T:the	T:store	T:,	T:which	T:have	T:crowd	T:with	T:shopper	T:,	T:collapse	T:within	T:seconds	auxpass-HEAD:crowd
+with/CONJ	pobj-DEP:shopper	T:the	T:store	T:,	T:which	T:have	T:be	T:crowd	T:shopper	T:,	T:collapse	T:within	T:seconds	T:floor	T:by	prep-HEAD:crowd
+shopper/N	T:store	T:,	T:which	T:have	T:be	T:crowd	T:with	T:,	T:collapse	T:within	T:seconds	T:floor	T:by	T:floor	pobj-HEAD:with
+,/PUNCT	punct-HEAD:store	T:,	T:which	T:have	T:be	T:crowd	T:with	T:shopper	T:collapse	T:within	T:seconds	T:floor	T:by	T:floor	T:from
+collapse/V	nsubj-DEP:store	tmod-DEP:say	T:which	T:have	T:be	T:crowd	T:with	T:shopper	T:,	T:within	T:seconds	T:floor	T:by	T:floor	T:from	T:the	dobj-DEP:floor	prep-DEP:within	prep-DEP:by	prep-DEP:from	prep-DEP:of	punct-DEP:,	punct-DEP:.
+floor/N	T:crowd	T:with	T:shopper	T:,	T:collapse	T:within	T:seconds	T:by	T:floor	T:from	T:the	T:top	T:,	T:apparently	dobj-HEAD:collapse
+by/CONJ	pobj-DEP:floor	T:with	T:shopper	T:,	T:collapse	T:within	T:seconds	T:floor	T:floor	T:from	T:the	T:top	T:,	T:apparently	T:because	prep-HEAD:collapse
+floor/N	T:shopper	T:,	T:collapse	T:within	T:seconds	T:floor	T:by	T:from	T:the	T:top	T:,	T:apparently	T:because	T:of	pobj-HEAD:by
+from/CONJ	pobj-DEP:top	T:,	T:collapse	T:within	T:seconds	T:floor	T:by	T:floor	T:the	T:top	T:,	T:apparently	T:because	T:of	T:shoddy	prep-HEAD:collapse
+the/DET	T:collapse	T:within	T:seconds	T:floor	T:by	T:floor	T:from	T:top	T:,	T:apparently	T:because	T:of	T:shoddy	T:construction	det-HEAD:top
+,/PUNCT	punct-HEAD:collapse	T:seconds	T:floor	T:by	T:floor	T:from	T:the	T:top	T:apparently	T:because	T:of	T:shoddy	T:construction	T:,	T:witness
+apparently/RB	T:floor	T:by	T:floor	T:from	T:the	T:top	T:,	T:because	T:of	T:shoddy	T:construction	T:,	T:witness	T:and	advmod-HEAD:of
+of/CONJ	pobj-DEP:construction	T:floor	T:from	T:the	T:top	T:,	T:apparently	T:because	T:shoddy	T:construction	T:,	T:witness	T:and	T:police	T:say	prep-HEAD:collapse	mwe-DEP:because	advmod-DEP:apparently
+construction/N	amod-DEP:shoddy	T:the	T:top	T:,	T:apparently	T:because	T:of	T:shoddy	T:,	T:witness	T:and	T:police	T:say	T:.	pobj-HEAD:of	conj-DEP:witness	conj-DEP:police	punct-DEP:,	cc-DEP:and
+,/PUNCT	punct-HEAD:construction	T:top	T:,	T:apparently	T:because	T:of	T:shoddy	T:construction	T:witness	T:and	T:police	T:say	T:.
+and/CONJ	T:apparently	T:because	T:of	T:shoddy	T:construction	T:,	T:witness	T:police	T:say	T:.	cc-HEAD:construction
+police/N	T:because	T:of	T:shoddy	T:construction	T:,	T:witness	T:and	T:say	T:.	conj-HEAD:construction
+say/V	T:of	T:shoddy	T:construction	T:,	T:witness	T:and	T:police	T:.	tmod-HEAD:collapse
+./PUNCT	punct-HEAD:collapse	T:shoddy	T:construction	T:,	T:witness	T:and	T:police	T:say
+at/CONJ	T:least	T:24	T:body	T:have	T:be	T:recover	T:and	quantmod-HEAD:24
+have/V	T:at	T:least	T:24	T:body	T:be	T:recover	T:and	T:more	T:than	T:700	T:hospitalise	aux-HEAD:recover
+be/V	T:at	T:least	T:24	T:body	T:have	T:recover	T:and	T:more	T:than	T:700	T:hospitalise	T:five	auxpass-HEAD:recover
+and/CONJ	T:at	T:least	T:24	T:body	T:have	T:be	T:recover	T:more	T:than	T:700	T:hospitalise	T:five	T:hour	T:after	cc-HEAD:recover
+five/UNK	T:be	T:recover	T:and	T:more	T:than	T:700	T:hospitalise	T:hour	T:after	T:the	T:disaster	T:topple	T:a	T:wing	num-HEAD:hour
+after/CONJ	T:and	T:more	T:than	T:700	T:hospitalise	T:five	T:hour	T:the	T:disaster	T:topple	T:a	T:wing	T:of	T:the	dep-HEAD:topple
+the/DET	T:more	T:than	T:700	T:hospitalise	T:five	T:hour	T:after	T:disaster	T:topple	T:a	T:wing	T:of	T:the	T:sampoong	det-HEAD:disaster
+disaster/N	T:than	T:700	T:hospitalise	T:five	T:hour	T:after	T:the	T:topple	T:a	T:wing	T:of	T:the	T:sampoong	T:store	det-DEP:the	nsubj-HEAD:topple
+a/DET	T:hospitalise	T:five	T:hour	T:after	T:the	T:disaster	T:topple	T:wing	T:of	T:the	T:sampoong	T:store	T:in	T:southern	det-HEAD:wing
+wing/N	T:five	T:hour	T:after	T:the	T:disaster	T:topple	T:a	T:of	T:the	T:sampoong	T:store	T:in	T:southern	T:seoul	det-DEP:a	prep-DEP:of	prep-DEP:in	dobj-HEAD:topple
+of/CONJ	pobj-DEP:store	T:hour	T:after	T:the	T:disaster	T:topple	T:a	T:wing	T:the	T:sampoong	T:store	T:in	T:southern	T:seoul	T:,	prep-HEAD:wing
+the/DET	T:after	T:the	T:disaster	T:topple	T:a	T:wing	T:of	T:sampoong	T:store	T:in	T:southern	T:seoul	T:,	T:police	det-HEAD:store
+sampoong/N	T:the	T:disaster	T:topple	T:a	T:wing	T:of	T:the	T:store	T:in	T:southern	T:seoul	T:,	T:police	T:say	nn-HEAD:store
+store/N	T:disaster	T:topple	T:a	T:wing	T:of	T:the	T:sampoong	T:in	T:southern	T:seoul	T:,	T:police	T:say	T:.	det-DEP:the	nn-DEP:sampoong	pobj-HEAD:of
+in/CONJ	pobj-DEP:seoul	T:topple	T:a	T:wing	T:of	T:the	T:sampoong	T:store	T:southern	T:seoul	T:,	T:police	T:say	T:.	prep-HEAD:wing
+seoul/N	amod-DEP:southern	T:wing	T:of	T:the	T:sampoong	T:store	T:in	T:southern	T:,	T:police	T:say	T:.	pobj-HEAD:in
+,/PUNCT	punct-HEAD:topple	T:of	T:the	T:sampoong	T:store	T:in	T:southern	T:seoul	T:police	T:say	T:.
+police/N	T:the	T:sampoong	T:store	T:in	T:southern	T:seoul	T:,	T:say	T:.	nsubj-HEAD:say
+say/V	nsubj-DEP:police	T:sampoong	T:store	T:in	T:southern	T:seoul	T:,	T:police	T:.	ccomp-HEAD:topple
+./PUNCT	punct-HEAD:recover	T:store	T:in	T:southern	T:seoul	T:,	T:police	T:say
+``/UNK	punct-HEAD:say	T:it	T:be	T:another	T:political	T:step	T:between	T:the
+it/PRON	T:``	T:be	T:another	T:political	T:step	T:between	T:the	T:people	nsubj-HEAD:step
+be/V	cop-HEAD:step	T:``	T:it	T:another	T:political	T:step	T:between	T:the	T:people	T:of
+another/DET	T:``	T:it	T:be	T:political	T:step	T:between	T:the	T:people	T:of	T:russia	det-HEAD:step
+between/CONJ	pobj-DEP:people	T:``	T:it	T:be	T:another	T:political	T:step	T:the	T:people	T:of	T:russia	T:and	T:america	T:,	prep-HEAD:step
+the/DET	T:``	T:it	T:be	T:another	T:political	T:step	T:between	T:people	T:of	T:russia	T:and	T:america	T:,	T:''	det-HEAD:people
+people/N	T:it	T:be	T:another	T:political	T:step	T:between	T:the	T:of	T:russia	T:and	T:america	T:,	T:''	T:dezhurov	det-DEP:the	pobj-HEAD:between	prep-DEP:of
+of/CONJ	pobj-DEP:russia	T:be	T:another	T:political	T:step	T:between	T:the	T:people	T:russia	T:and	T:america	T:,	T:''	T:dezhurov	T:say	prep-HEAD:people
+and/CONJ	T:political	T:step	T:between	T:the	T:people	T:of	T:russia	T:america	T:,	T:''	T:dezhurov	T:say	T:.	cc-HEAD:russia
+,/PUNCT	punct-HEAD:say	T:between	T:the	T:people	T:of	T:russia	T:and	T:america	T:''	T:dezhurov	T:say	T:.
+''/UNK	punct-HEAD:say	T:the	T:people	T:of	T:russia	T:and	T:america	T:,	T:dezhurov	T:say	T:.
+say/V	nsubj-DEP:dezhurov	T:of	T:russia	T:and	T:america	T:,	T:''	T:dezhurov	T:.	ccomp-DEP:step	punct-DEP:``	punct-DEP:,	punct-DEP:''	punct-DEP:.
+./PUNCT	punct-HEAD:say	T:russia	T:and	T:america	T:,	T:''	T:dezhurov	T:say
+as/CONJ	T:a	T:result	T:,	T:british	T:oil	T:and	T:gas	prep-HEAD:fall
+a/DET	T:as	T:result	T:,	T:british	T:oil	T:and	T:gas	T:revenue	det-HEAD:result
+,/PUNCT	punct-HEAD:fall	T:as	T:a	T:result	T:british	T:oil	T:and	T:gas	T:revenue	T:fall	T:13
+oil/N	T:as	T:a	T:result	T:,	T:british	T:and	T:gas	T:revenue	T:fall	T:13	T:percent	T:from	conj-DEP:gas	nn-HEAD:revenue	cc-DEP:and
+and/CONJ	T:as	T:a	T:result	T:,	T:british	T:oil	T:gas	T:revenue	T:fall	T:13	T:percent	T:from	T:they	cc-HEAD:oil
+gas/N	T:as	T:a	T:result	T:,	T:british	T:oil	T:and	T:revenue	T:fall	T:13	T:percent	T:from	T:they	T:april	conj-HEAD:oil
+percent/N	T:british	T:oil	T:and	T:gas	T:revenue	T:fall	T:13	T:from	T:they	T:april	T:level	T:to	T:38.2	T:million	num-DEP:13	dobj-HEAD:fall
+from/CONJ	pobj-DEP:level	T:oil	T:and	T:gas	T:revenue	T:fall	T:13	T:percent	T:they	T:april	T:level	T:to	T:38.2	T:million	T:pound	prep-HEAD:fall
+they/PRON	T:and	T:gas	T:revenue	T:fall	T:13	T:percent	T:from	T:april	T:level	T:to	T:38.2	T:million	T:pound	T:-lrb-	poss-HEAD:level
+to/UNK	pobj-DEP:pound	T:fall	T:13	T:percent	T:from	T:they	T:april	T:level	T:38.2	T:million	T:pound	T:-lrb-	T:61	T:million	T:dollar	prep-HEAD:fall
+million/UNK	T:percent	T:from	T:they	T:april	T:level	T:to	T:38.2	T:pound	T:-lrb-	T:61	T:million	T:dollar	T:-rrb-	T:per	num-HEAD:pound	number-DEP:38.2
+pound/N	T:from	T:they	T:april	T:level	T:to	T:38.2	T:million	T:-lrb-	T:61	T:million	T:dollar	T:-rrb-	T:per	T:day	num-DEP:million	pobj-HEAD:to	prep-DEP:per	appos-DEP:dollar
+-lrb-/UNK	punct-HEAD:dollar	T:they	T:april	T:level	T:to	T:38.2	T:million	T:pound	T:61	T:million	T:dollar	T:-rrb-	T:per	T:day	T:.
+million/UNK	T:level	T:to	T:38.2	T:million	T:pound	T:-lrb-	T:61	T:dollar	T:-rrb-	T:per	T:day	T:.	num-HEAD:dollar	number-DEP:61
+dollar/N	T:to	T:38.2	T:million	T:pound	T:-lrb-	T:61	T:million	T:-rrb-	T:per	T:day	T:.	num-DEP:million	punct-DEP:-lrb-	punct-DEP:-rrb-	appos-HEAD:pound
+-rrb-/UNK	punct-HEAD:dollar	T:38.2	T:million	T:pound	T:-lrb-	T:61	T:million	T:dollar	T:per	T:day	T:.
+per/CONJ	pobj-DEP:day	T:million	T:pound	T:-lrb-	T:61	T:million	T:dollar	T:-rrb-	T:day	T:.	prep-HEAD:pound
+day/N	T:pound	T:-lrb-	T:61	T:million	T:dollar	T:-rrb-	T:per	T:.	pobj-HEAD:per
+./PUNCT	punct-HEAD:fall	T:-lrb-	T:61	T:million	T:dollar	T:-rrb-	T:per	T:day
+the/DET	T:historic	T:link-up	T:between	T:former	T:superpower	T:rival	T:take	det-HEAD:link-up
+between/CONJ	pobj-DEP:rival	T:the	T:historic	T:link-up	T:former	T:superpower	T:rival	T:take	T:place	T:395	T:kilometer	prep-HEAD:link-up
+former/J	T:the	T:historic	T:link-up	T:between	T:superpower	T:rival	T:take	T:place	T:395	T:kilometer	T:-lrb-	amod-HEAD:rival
+take/V	nsubj-DEP:link-up	T:the	T:historic	T:link-up	T:between	T:former	T:superpower	T:rival	T:place	T:395	T:kilometer	T:-lrb-	T:247	T:mile	T:-rrb-	dobj-DEP:place
+-lrb-/UNK	punct-HEAD:mile	T:former	T:superpower	T:rival	T:take	T:place	T:395	T:kilometer	T:247	T:mile	T:-rrb-	T:above	T:the	T:earth	T:at
+-rrb-/UNK	punct-HEAD:mile	T:take	T:place	T:395	T:kilometer	T:-lrb-	T:247	T:mile	T:above	T:the	T:earth	T:at	T:1300	T:gmt	T:.
+the/DET	T:395	T:kilometer	T:-lrb-	T:247	T:mile	T:-rrb-	T:above	T:earth	T:at	T:1300	T:gmt	T:.	det-HEAD:earth
+at/CONJ	pobj-DEP:gmt	T:-lrb-	T:247	T:mile	T:-rrb-	T:above	T:the	T:earth	T:1300	T:gmt	T:.	prep-HEAD:kilometer
+./PUNCT	punct-HEAD:kilometer	T:-rrb-	T:above	T:the	T:earth	T:at	T:1300	T:gmt
+the/DET	T:crew	T:,	T:six	T:astronaut	T:and	T:four	T:cosmonaut	det-HEAD:crew
+,/PUNCT	punct-HEAD:crew	T:the	T:crew	T:six	T:astronaut	T:and	T:four	T:cosmonaut	T:,	T:hold
+and/CONJ	T:the	T:crew	T:,	T:six	T:astronaut	T:four	T:cosmonaut	T:,	T:hold	T:a	T:brief	T:welcome	cc-HEAD:crew
+four/UNK	T:the	T:crew	T:,	T:six	T:astronaut	T:and	T:cosmonaut	T:,	T:hold	T:a	T:brief	T:welcome	T:ceremony	num-HEAD:cosmonaut
+,/PUNCT	punct-HEAD:crew	T:crew	T:,	T:six	T:astronaut	T:and	T:four	T:cosmonaut	T:hold	T:a	T:brief	T:welcome	T:ceremony	T:and	T:line
+a/DET	T:six	T:astronaut	T:and	T:four	T:cosmonaut	T:,	T:hold	T:brief	T:welcome	T:ceremony	T:and	T:line	T:up	T:for	det-HEAD:ceremony
+and/CONJ	T:cosmonaut	T:,	T:hold	T:a	T:brief	T:welcome	T:ceremony	T:line	T:up	T:for	T:a	T:all-smiles	T:group	T:picture	cc-HEAD:hold
+up/UNK	T:hold	T:a	T:brief	T:welcome	T:ceremony	T:and	T:line	T:for	T:a	T:all-smiles	T:group	T:picture	T:.	prt-HEAD:line
+for/CONJ	pobj-DEP:picture	T:a	T:brief	T:welcome	T:ceremony	T:and	T:line	T:up	T:a	T:all-smiles	T:group	T:picture	T:.	prep-HEAD:line
+a/DET	T:brief	T:welcome	T:ceremony	T:and	T:line	T:up	T:for	T:all-smiles	T:group	T:picture	T:.	det-HEAD:picture
+./PUNCT	punct-HEAD:hold	T:line	T:up	T:for	T:a	T:all-smiles	T:group	T:picture
+``/UNK	punct-HEAD:add	T:we	T:can	T:not	T:have	T:the	T:situation	T:that
+we/PRON	T:``	T:can	T:not	T:have	T:the	T:situation	T:that	T:occur	nsubj-HEAD:have
+can/UNK	T:``	T:we	T:not	T:have	T:the	T:situation	T:that	T:occur	T:in	aux-HEAD:have
+not/RB	T:``	T:we	T:can	T:have	T:the	T:situation	T:that	T:occur	T:in	T:the	neg-HEAD:have
+have/V	nsubj-DEP:we	T:``	T:we	T:can	T:not	T:the	T:situation	T:that	T:occur	T:in	T:the	T:mid	dobj-DEP:situation	ccomp-HEAD:add	neg-DEP:not	aux-DEP:can
+the/DET	T:``	T:we	T:can	T:not	T:have	T:situation	T:that	T:occur	T:in	T:the	T:mid	T:1980s	det-HEAD:situation
+in/CONJ	pobj-DEP:1980s	T:can	T:not	T:have	T:the	T:situation	T:that	T:occur	T:the	T:mid	T:1980s	T:when	T:the	T:former	T:british	prep-HEAD:occur
+the/DET	T:not	T:have	T:the	T:situation	T:that	T:occur	T:in	T:mid	T:1980s	T:when	T:the	T:former	T:british	T:board	det-HEAD:1980s
+when/UNK	T:situation	T:that	T:occur	T:in	T:the	T:mid	T:1980s	T:the	T:former	T:british	T:board	T:almost	T:go	T:bankrupt	advmod-HEAD:go
+the/DET	T:that	T:occur	T:in	T:the	T:mid	T:1980s	T:when	T:former	T:british	T:board	T:almost	T:go	T:bankrupt	T:,	det-HEAD:board
+former/J	T:occur	T:in	T:the	T:mid	T:1980s	T:when	T:the	T:british	T:board	T:almost	T:go	T:bankrupt	T:,	T:''	amod-HEAD:board
+british/N	T:in	T:the	T:mid	T:1980s	T:when	T:the	T:former	T:board	T:almost	T:go	T:bankrupt	T:,	T:''	T:ward	nn-HEAD:board
+board/N	amod-DEP:former	T:the	T:mid	T:1980s	T:when	T:the	T:former	T:british	T:almost	T:go	T:bankrupt	T:,	T:''	T:ward	T:add	det-DEP:the	nn-DEP:british	nsubj-HEAD:go
+almost/RB	T:mid	T:1980s	T:when	T:the	T:former	T:british	T:board	T:go	T:bankrupt	T:,	T:''	T:ward	T:add	T:.	advmod-HEAD:go
+,/PUNCT	punct-HEAD:add	T:the	T:former	T:british	T:board	T:almost	T:go	T:bankrupt	T:''	T:ward	T:add	T:.
+''/UNK	punct-HEAD:add	T:former	T:british	T:board	T:almost	T:go	T:bankrupt	T:,	T:ward	T:add	T:.
+add/V	nsubj-DEP:ward	T:board	T:almost	T:go	T:bankrupt	T:,	T:''	T:ward	T:.	ccomp-DEP:have	punct-DEP:``	punct-DEP:,	punct-DEP:''	punct-DEP:.
+./PUNCT	punct-HEAD:add	T:almost	T:go	T:bankrupt	T:,	T:''	T:ward	T:add
+-lrb-/UNK	punct-HEAD:detect	T:attention	T:embargo	T:-rrb-	T:sudan	T:have	T:detect	T:``
+-rrb-/UNK	punct-HEAD:detect	T:-lrb-	T:attention	T:embargo	T:sudan	T:have	T:detect	T:``	T:unusual	T:''	T:egyptian
+have/V	T:-lrb-	T:attention	T:embargo	T:-rrb-	T:sudan	T:detect	T:``	T:unusual	T:''	T:egyptian	T:troop	T:movement	aux-HEAD:detect
+``/UNK	punct-HEAD:unusual	T:-lrb-	T:attention	T:embargo	T:-rrb-	T:sudan	T:have	T:detect	T:unusual	T:''	T:egyptian	T:troop	T:movement	T:in	T:the
+''/UNK	punct-HEAD:unusual	T:embargo	T:-rrb-	T:sudan	T:have	T:detect	T:``	T:unusual	T:egyptian	T:troop	T:movement	T:in	T:the	T:dispute	T:halaib
+movement/N	amod-DEP:unusual	amod-DEP:egyptian	T:have	T:detect	T:``	T:unusual	T:''	T:egyptian	T:troop	T:in	T:the	T:dispute	T:halaib	T:border	T:zone	T:,	nn-DEP:troop	prep-DEP:in	dobj-HEAD:detect
+in/CONJ	pobj-DEP:zone	T:detect	T:``	T:unusual	T:''	T:egyptian	T:troop	T:movement	T:the	T:dispute	T:halaib	T:border	T:zone	T:,	T:a	prep-HEAD:movement
+the/DET	T:``	T:unusual	T:''	T:egyptian	T:troop	T:movement	T:in	T:dispute	T:halaib	T:border	T:zone	T:,	T:a	T:senior	det-HEAD:zone
+border/N	T:egyptian	T:troop	T:movement	T:in	T:the	T:dispute	T:halaib	T:zone	T:,	T:a	T:senior	T:general	T:say	T:thursday	nn-HEAD:zone
+,/PUNCT	punct-HEAD:detect	T:movement	T:in	T:the	T:dispute	T:halaib	T:border	T:zone	T:a	T:senior	T:general	T:say	T:thursday	T:.
+a/DET	T:in	T:the	T:dispute	T:halaib	T:border	T:zone	T:,	T:senior	T:general	T:say	T:thursday	T:.	det-HEAD:general
+general/N	amod-DEP:senior	T:dispute	T:halaib	T:border	T:zone	T:,	T:a	T:senior	T:say	T:thursday	T:.	det-DEP:a	nsubj-HEAD:say
+say/V	nsubj-DEP:general	tmod-DEP:thursday	T:halaib	T:border	T:zone	T:,	T:a	T:senior	T:general	T:thursday	T:.	ccomp-HEAD:detect
+thursday/N	T:border	T:zone	T:,	T:a	T:senior	T:general	T:say	T:.	tmod-HEAD:say
+./PUNCT	punct-HEAD:detect	T:zone	T:,	T:a	T:senior	T:general	T:say	T:thursday
+but/CONJ	T:water	T:be	T:douse	T:on	T:the	T:smoke	T:and	cc-HEAD:douse
+water/N	nsubjpass-HEAD:douse	T:but	T:be	T:douse	T:on	T:the	T:smoke	T:and	T:emergency
+be/V	T:but	T:water	T:douse	T:on	T:the	T:smoke	T:and	T:emergency	T:service	auxpass-HEAD:douse
+on/CONJ	pobj-DEP:smoke	T:but	T:water	T:be	T:douse	T:the	T:smoke	T:and	T:emergency	T:service	T:and	T:soldier	prep-HEAD:douse
+the/DET	T:but	T:water	T:be	T:douse	T:on	T:smoke	T:and	T:emergency	T:service	T:and	T:soldier	T:crawl	det-HEAD:smoke
+smoke/N	T:but	T:water	T:be	T:douse	T:on	T:the	T:and	T:emergency	T:service	T:and	T:soldier	T:crawl	T:into	det-DEP:the	pobj-HEAD:on	conj-DEP:service	conj-DEP:soldier	cc-DEP:and	cc-DEP:and
+and/CONJ	T:but	T:water	T:be	T:douse	T:on	T:the	T:smoke	T:emergency	T:service	T:and	T:soldier	T:crawl	T:into	T:a	cc-HEAD:smoke
+and/CONJ	T:douse	T:on	T:the	T:smoke	T:and	T:emergency	T:service	T:soldier	T:crawl	T:into	T:a	T:tangle	T:of	T:reinforce	cc-HEAD:smoke
+a/DET	T:and	T:emergency	T:service	T:and	T:soldier	T:crawl	T:into	T:tangle	T:of	T:reinforce	T:concrete	T:slab	T:to	T:bring	det-HEAD:tangle
+of/CONJ	pobj-DEP:slab	T:service	T:and	T:soldier	T:crawl	T:into	T:a	T:tangle	T:reinforce	T:concrete	T:slab	T:to	T:bring	T:out	T:the	prep-HEAD:tangle
+to/UNK	T:into	T:a	T:tangle	T:of	T:reinforce	T:concrete	T:slab	T:bring	T:out	T:the	T:injure	T:.	aux-HEAD:bring
+out/UNK	T:tangle	T:of	T:reinforce	T:concrete	T:slab	T:to	T:bring	T:the	T:injure	T:.	prt-HEAD:bring
+the/DET	T:of	T:reinforce	T:concrete	T:slab	T:to	T:bring	T:out	T:injure	T:.	det-HEAD:injure
+injure/V	T:reinforce	T:concrete	T:slab	T:to	T:bring	T:out	T:the	T:.	det-DEP:the	dobj-HEAD:bring
+./PUNCT	punct-HEAD:douse	T:concrete	T:slab	T:to	T:bring	T:out	T:the	T:injure
+the/DET	T:british	T:captain	T:may	T:be	T:see	T:only	T:once	det-HEAD:captain
+british/N	T:the	T:captain	T:may	T:be	T:see	T:only	T:once	T:more	nn-HEAD:captain
+be/V	T:the	T:british	T:captain	T:may	T:see	T:only	T:once	T:more	T:in	T:britain	T:--	auxpass-HEAD:see
+see/V	nsubjpass-DEP:captain	T:the	T:british	T:captain	T:may	T:be	T:only	T:once	T:more	T:in	T:britain	T:--	T:at	auxpass-DEP:be	prep-DEP:in	prep-DEP:at	punct-DEP:--	punct-DEP:.	aux-DEP:may	advmod-DEP:more
+only/RB	T:the	T:british	T:captain	T:may	T:be	T:see	T:once	T:more	T:in	T:britain	T:--	T:at	T:next	advmod-HEAD:once
+more/RB	T:british	T:captain	T:may	T:be	T:see	T:only	T:once	T:in	T:britain	T:--	T:at	T:next	T:month	T:'s	advmod-HEAD:see	advmod-DEP:once
+in/CONJ	pobj-DEP:britain	T:captain	T:may	T:be	T:see	T:only	T:once	T:more	T:britain	T:--	T:at	T:next	T:month	T:'s	T:world	prep-HEAD:see
+britain/N	T:may	T:be	T:see	T:only	T:once	T:more	T:in	T:--	T:at	T:next	T:month	T:'s	T:world	T:championship	pobj-HEAD:in
+at/CONJ	pobj-DEP:trial	T:see	T:only	T:once	T:more	T:in	T:britain	T:--	T:next	T:month	T:'s	T:world	T:championship	T:trial	T:in	prep-HEAD:see
+next/J	T:only	T:once	T:more	T:in	T:britain	T:--	T:at	T:month	T:'s	T:world	T:championship	T:trial	T:in	T:birmingham	amod-HEAD:month
+'s/UNK	T:more	T:in	T:britain	T:--	T:at	T:next	T:month	T:world	T:championship	T:trial	T:in	T:birmingham	T:,	T:where	possessive-HEAD:month
+in/CONJ	pobj-DEP:birmingham	T:at	T:next	T:month	T:'s	T:world	T:championship	T:trial	T:birmingham	T:,	T:where	T:all	T:athlete	T:must	T:compete	prep-HEAD:trial
+,/PUNCT	punct-HEAD:birmingham	T:month	T:'s	T:world	T:championship	T:trial	T:in	T:birmingham	T:where	T:all	T:athlete	T:must	T:compete	T:to	T:win
+must/UNK	T:trial	T:in	T:birmingham	T:,	T:where	T:all	T:athlete	T:compete	T:to	T:win	T:selection	T:for	T:gothenburg	T:.	aux-HEAD:compete
+to/UNK	T:birmingham	T:,	T:where	T:all	T:athlete	T:must	T:compete	T:win	T:selection	T:for	T:gothenburg	T:.	aux-HEAD:win
+win/V	T:,	T:where	T:all	T:athlete	T:must	T:compete	T:to	T:selection	T:for	T:gothenburg	T:.	dobj-DEP:selection	prep-DEP:for	xcomp-HEAD:compete	aux-DEP:to
+for/CONJ	pobj-DEP:gothenburg	T:all	T:athlete	T:must	T:compete	T:to	T:win	T:selection	T:gothenburg	T:.	prep-HEAD:win
+./PUNCT	punct-HEAD:see	T:must	T:compete	T:to	T:win	T:selection	T:for	T:gothenburg
+oil/N	T:production	T:decline	T:significantly	T:as	T:many	T:operator	T:shut	nn-HEAD:production
+production/N	T:oil	T:decline	T:significantly	T:as	T:many	T:operator	T:shut	T:down	nn-DEP:oil	nsubj-HEAD:decline
+as/RB	T:oil	T:production	T:decline	T:significantly	T:many	T:operator	T:shut	T:down	T:they	T:oil	T:field	advmod-HEAD:shut
+many/J	T:oil	T:production	T:decline	T:significantly	T:as	T:operator	T:shut	T:down	T:they	T:oil	T:field	T:for	amod-HEAD:operator
+down/UNK	T:production	T:decline	T:significantly	T:as	T:many	T:operator	T:shut	T:they	T:oil	T:field	T:for	T:maintenance	T:and	T:development	prt-HEAD:shut
+they/PRON	T:decline	T:significantly	T:as	T:many	T:operator	T:shut	T:down	T:oil	T:field	T:for	T:maintenance	T:and	T:development	T:work	poss-HEAD:field
+oil/N	T:significantly	T:as	T:many	T:operator	T:shut	T:down	T:they	T:field	T:for	T:maintenance	T:and	T:development	T:work	T:,	nn-HEAD:field
+for/CONJ	pobj-DEP:maintenance	T:many	T:operator	T:shut	T:down	T:they	T:oil	T:field	T:maintenance	T:and	T:development	T:work	T:,	T:include	T:enterprise	prep-HEAD:shut
+and/CONJ	T:shut	T:down	T:they	T:oil	T:field	T:for	T:maintenance	T:development	T:work	T:,	T:include	T:enterprise	T:oil	T:'s	cc-HEAD:maintenance
+work/N	T:they	T:oil	T:field	T:for	T:maintenance	T:and	T:development	T:,	T:include	T:enterprise	T:oil	T:'s	T:nelson	T:,	nn-DEP:development	conj-HEAD:maintenance
+,/PUNCT	punct-HEAD:shut	T:oil	T:field	T:for	T:maintenance	T:and	T:development	T:work	T:include	T:enterprise	T:oil	T:'s	T:nelson	T:,	T:bp
+oil/N	T:maintenance	T:and	T:development	T:work	T:,	T:include	T:enterprise	T:'s	T:nelson	T:,	T:bp	T:'s	T:forties	T:and	nn-DEP:enterprise	poss-HEAD:nelson	possessive-DEP:'s
+'s/UNK	T:and	T:development	T:work	T:,	T:include	T:enterprise	T:oil	T:nelson	T:,	T:bp	T:'s	T:forties	T:and	T:chevron	possessive-HEAD:oil
+,/PUNCT	punct-HEAD:nelson	T:work	T:,	T:include	T:enterprise	T:oil	T:'s	T:nelson	T:bp	T:'s	T:forties	T:and	T:chevron	T:'s	T:alba
+'s/UNK	T:include	T:enterprise	T:oil	T:'s	T:nelson	T:,	T:bp	T:forties	T:and	T:chevron	T:'s	T:alba	T:,	T:rbs	possessive-HEAD:bp
+and/CONJ	T:oil	T:'s	T:nelson	T:,	T:bp	T:'s	T:forties	T:chevron	T:'s	T:alba	T:,	T:rbs	T:say	T:.	cc-HEAD:nelson
+'s/UNK	T:nelson	T:,	T:bp	T:'s	T:forties	T:and	T:chevron	T:alba	T:,	T:rbs	T:say	T:.	possessive-HEAD:chevron
+,/PUNCT	punct-HEAD:decline	T:bp	T:'s	T:forties	T:and	T:chevron	T:'s	T:alba	T:rbs	T:say	T:.
+say/V	nsubj-DEP:rbs	T:forties	T:and	T:chevron	T:'s	T:alba	T:,	T:rbs	T:.	conj-HEAD:decline
+./PUNCT	punct-HEAD:decline	T:and	T:chevron	T:'s	T:alba	T:,	T:rbs	T:say
+the/DET	T:us	T:shuttle	T:atlantis	T:dock	T:with	T:the	T:russian	det-HEAD:shuttle
+with/CONJ	pobj-DEP:mir	T:the	T:us	T:shuttle	T:atlantis	T:dock	T:the	T:russian	T:space	T:station	T:mir	T:thursday	T:,	prep-HEAD:dock
+the/DET	T:the	T:us	T:shuttle	T:atlantis	T:dock	T:with	T:russian	T:space	T:station	T:mir	T:thursday	T:,	T:with	det-HEAD:mir
