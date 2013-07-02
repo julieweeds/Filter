@@ -75,7 +75,7 @@ def myfilter(filename,fthresh,posPATT,excl_list):
 if __name__=="__main__":
     parameters=configure(sys.argv)
     count(parameters['filename'],posPATTS[parameters['pos']]) #make count dictionary
-    print counts
+    #print counts
     print "Number of counted words is "+str(len(counts))
     excl_list=[]
     for exclude in parameters['exclude-feat']:
