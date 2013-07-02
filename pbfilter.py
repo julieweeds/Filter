@@ -11,14 +11,15 @@ def inccount(item):
     current=counts.get(item,0)
     counts[item]=current+1
 
-def count(filename,posPATT):
+def count(filename,posPATTS):
     with open(filename,'r') as instream:
         print "Reading "+filename
         linesread=0
         for line in instream:
             initial = line.split('\t')[0]
-            if posPATT.match(initial):
-                inccount(initial)
+            for posPATT in posPATTS:
+                if posPATT.match(initial):
+                    inccount(initial)
             linesread+=1
             if linesread%10000==0:
                 print "Read "+str(linesread)+" lines"
@@ -47,7 +48,7 @@ def filterline(fields,excl_list):
     return newline
 
 
-def myfilter(filename,fthresh,posPATT,excl_list):
+def myfilter(filename,fthresh,posPATTS,excl_list):
 
     outfile = filename+".pbfiltered"
 
@@ -60,10 +61,11 @@ def myfilter(filename,fthresh,posPATT,excl_list):
                 line=line.rstrip()
                 fields = line.split('\t')
                 initial=fields.pop(0)
-                if posPATT.match(initial):
-                    if counts.get(initial,0)>fthresh:
-                        fields=filterline(fields,excl_list)
-                        outstream.write(initial+"\t"+fields)
+                for posPATT in posPATTS:
+                    if posPATT.match(initial):
+                        if counts.get(initial,0)>fthresh:
+                            fields=filterline(fields,excl_list)
+                            outstream.write(initial+"\t"+fields)
                 linesprocessed+=1
                 if linesprocessed%10000==0:
                     percent = float(linesprocessed)*100/float(total)
@@ -74,7 +76,13 @@ def myfilter(filename,fthresh,posPATT,excl_list):
 
 if __name__=="__main__":
     parameters=configure(sys.argv)
-    count(parameters['filename'],posPATTS[parameters['pos']]) #make count dictionary
+    in_pos=[]
+    for pos in parameters['pos']:
+        patt = posPATTS.get(pos,"none")
+        if patt != "none":
+            in_pos.append(patt)
+    print in_pos
+    count(parameters['filename'],in_pos) #make count dictionary
     #print counts
     print "Number of counted words is "+str(len(counts))
     excl_list=[]
@@ -82,6 +90,7 @@ if __name__=="__main__":
         patt = filtPATTS.get(exclude,"none")
         if patt != "none":
             excl_list.append(patt)
-    myfilter(parameters['filename'],parameters['fthresh']-1,posPATTS[parameters['pos']],excl_list)
+
+    myfilter(parameters['filename'],parameters['fthresh']-1,in_pos,excl_list)
 
 

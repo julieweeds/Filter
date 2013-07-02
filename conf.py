@@ -21,7 +21,7 @@ def configure(args):
                 #probably a parameter for setting features
                 parameters['exclude-feat'].append(arg)
 
-    if len(parameters['pos'])==0: parameters['pos']='N' #default to noun option
+    if len(parameters['pos'])==0: parameters['pos']=['N'] #default to noun option
 
     return parameters
 
