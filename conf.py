@@ -14,7 +14,7 @@ def configure(args):
     parameters['exclude-feat']=[]
 
     if len(args)> 3:
-        for arg in args:
+        for arg in args[3:]:
             if arg in posspos:
                 parameters['pos'].append(arg)
             else:
