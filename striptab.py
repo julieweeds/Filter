@@ -1,7 +1,8 @@
 __author__ = 'juliewe'
+#strip any tabs from end of lines and remove lines with no features
 
-#file="wikipedia_t100.pbfiltered"
-file="testdata.pbfiltered"
+file="wikipedia_t100.pbfiltered"
+#file="testdata.pbfiltered"
 outfile="wikipedia_nounsdeps_t100.pbfiltered"
 
 with open(file,'r') as instream:
@@ -9,6 +10,8 @@ with open(file,'r') as instream:
         processed=0
         for line in instream:
             line=line.rstrip()
-            outstream.write(line+"\n")
+            fields =line.split('\t')
+            if len(fields)>1:
+                outstream.write(line+"\n")
             processed+=1
-            if processed%1000==0: print"Processed "+str(processed)+"lines"
+            if processed%10000==0: print"Processed "+str(processed)+" lines"
