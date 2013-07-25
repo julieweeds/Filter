@@ -41,12 +41,14 @@ def filterline(fields,excl_list):
         fields=newline
 
     newline=""
-    for field in fields:
-        newline=newline+"\t"+field
-    newline=newline+"\n"
+    if len(fields)>0:
+        for field in fields:
+            newline=newline+"\t"+field
+        newline=newline+"\n"
 
-    return newline
-
+        return newline
+    else:
+        return ""
 
 def myfilter(filename,fthresh,posPATTS,excl_list):
 
@@ -65,7 +67,8 @@ def myfilter(filename,fthresh,posPATTS,excl_list):
                     if posPATT.match(initial):
                         if counts.get(initial,0)>fthresh:
                             fields=filterline(fields,excl_list)
-                            outstream.write(initial+fields)
+                            if len(fields)>0:
+                                outstream.write(initial+fields)
                 linesprocessed+=1
                 if linesprocessed%10000==0:
                     percent = float(linesprocessed)*100/float(total)
